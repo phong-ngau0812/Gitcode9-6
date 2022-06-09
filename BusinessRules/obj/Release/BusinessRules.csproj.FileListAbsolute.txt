@@ -1,0 +1,56 @@
+D:\Source Code\EsupplyChain\WebUI\Bin\BusinessRules.dll
+D:\Source Code\EsupplyChain\WebUI\Bin\BusinessRules.xml
+D:\Source Code\EsupplyChain\BusinessRules\obj\Release\BusinessRules.csprojAssemblyReference.cache
+D:\Source Code\EsupplyChain\BusinessRules\obj\Release\BusinessRules.csproj.CoreCompileInputs.cache
+D:\Source Code\EsupplyChain\BusinessRules\obj\Release\BusinessRules.csproj.CopyComplete
+D:\Source Code\EsupplyChain\BusinessRules\obj\Release\BusinessRules.dll
+E:\ES\WebUI\Bin\BusinessRules.dll
+E:\ES\WebUI\Bin\BusinessRules.xml
+E:\ES\BusinessRules\obj\Release\BusinessRules.csprojAssemblyReference.cache
+E:\ES\BusinessRules\obj\Release\BusinessRules.csproj.CoreCompileInputs.cache
+E:\ES\BusinessRules\obj\Release\BusinessRules.csproj.CopyComplete
+E:\ES\BusinessRules\obj\Release\BusinessRules.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\Source\WebUI\Bin\BusinessRules.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\Source\WebUI\Bin\BusinessRules.xml
+C:\Users\Phong\Desktop\TTS_CheckVN\Source\BusinessRules\obj\Release\BusinessRules.csprojAssemblyReference.cache
+C:\Users\Phong\Desktop\TTS_CheckVN\Source\BusinessRules\obj\Release\BusinessRules.csproj.CopyComplete
+C:\Users\Phong\Desktop\TTS_CheckVN\Source\BusinessRules\obj\Release\BusinessRules.dll
+C:\Users\Phong\Desktop\New folder\WebUI\Bin\BusinessRules.dll
+C:\Users\Phong\Desktop\New folder\WebUI\Bin\BusinessRules.xml
+C:\Users\Phong\Desktop\New folder\BusinessRules\obj\Release\BusinessRules.csprojAssemblyReference.cache
+C:\Users\Phong\Desktop\New folder\BusinessRules\obj\Release\BusinessRules.csproj.CopyComplete
+C:\Users\Phong\Desktop\New folder\BusinessRules\obj\Release\BusinessRules.dll
+C:\Users\CHECKVN\Desktop\EsuppyChain\WebUI\Bin\BusinessRules.dll
+C:\Users\CHECKVN\Desktop\EsuppyChain\WebUI\Bin\BusinessRules.xml
+C:\Users\CHECKVN\Desktop\EsuppyChain\BusinessRules\obj\Release\BusinessRules.csproj.AssemblyReference.cache
+C:\Users\CHECKVN\Desktop\EsuppyChain\BusinessRules\obj\Release\BusinessRules.csproj.CoreCompileInputs.cache
+C:\Users\CHECKVN\Desktop\EsuppyChain\BusinessRules\obj\Release\BusinessRules.csproj.CopyComplete
+C:\Users\CHECKVN\Desktop\EsuppyChain\BusinessRules\obj\Release\BusinessRules.dll
+C:\Work\HomeWork\Xuanhoa\BusinessRules\obj\Release\BusinessRules.csprojAssemblyReference.cache
+C:\Work\HomeWork\Xuanhoa\BusinessRules\obj\Release\BusinessRules.csproj.CoreCompileInputs.cache
+C:\Work\HomeWork\Xuanhoa\BusinessRules\obj\Release\BusinessRules.dll
+C:\Work\HomeWork\Xuanhoa\WebUI\Bin\BusinessRules.dll
+C:\Work\HomeWork\Xuanhoa\WebUI\Bin\BusinessRules.xml
+C:\Work\HomeWork\Xuanhoa\BusinessRules\obj\Release\BusinessRules.csproj.CopyComplete
+D:\CHECKVN\WebUI\Bin\BusinessRules.dll
+D:\CHECKVN\WebUI\Bin\BusinessRules.xml
+D:\CHECKVN\BusinessRules\obj\Release\BusinessRules.csprojAssemblyReference.cache
+D:\CHECKVN\BusinessRules\obj\Release\BusinessRules.csproj.CopyComplete
+D:\CHECKVN\BusinessRules\obj\Release\BusinessRules.dll
+C:\Users\CHECKVN\Desktop\XuanHoa\WebUI\Bin\BusinessRules.dll
+C:\Users\CHECKVN\Desktop\XuanHoa\WebUI\Bin\BusinessRules.xml
+C:\Users\CHECKVN\Desktop\XuanHoa\BusinessRules\obj\Release\BusinessRules.csproj.AssemblyReference.cache
+C:\Users\CHECKVN\Desktop\XuanHoa\BusinessRules\obj\Release\BusinessRules.csproj.CoreCompileInputs.cache
+C:\Users\CHECKVN\Desktop\XuanHoa\BusinessRules\obj\Release\BusinessRules.csproj.CopyComplete
+C:\Users\CHECKVN\Desktop\XuanHoa\BusinessRules\obj\Release\BusinessRules.dll
+D:\CheckVN\XuanHoa\WebUI\Bin\BusinessRules.dll
+D:\CheckVN\XuanHoa\WebUI\Bin\BusinessRules.xml
+D:\CheckVN\XuanHoa\BusinessRules\obj\Release\BusinessRules.csproj.AssemblyReference.cache
+D:\CheckVN\XuanHoa\BusinessRules\obj\Release\BusinessRules.csproj.CoreCompileInputs.cache
+D:\CheckVN\XuanHoa\BusinessRules\obj\Release\BusinessRules.csproj.CopyComplete
+D:\CheckVN\XuanHoa\BusinessRules\obj\Release\BusinessRules.dll
+D:\CheckVNv3\BusinessRules\obj\Release\BusinessRules.csproj.CoreCompileInputs.cache
+D:\CheckVNv3\BusinessRules\obj\Release\BusinessRules.csproj.AssemblyReference.cache
+D:\CheckVNv3\BusinessRules\obj\Release\BusinessRules.dll
+D:\CheckVNv3\WebUI\Bin\BusinessRules.dll
+D:\CheckVNv3\WebUI\Bin\BusinessRules.xml

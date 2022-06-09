@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="1" ProjectGuid="{FCC333B6-0789-4f40-A43B-851DB236E860}">
+  <Database CodeName="asiaticade" Schema="dbo">
+    <Connection>Provider=SQLNCLI.1;Password=111111;Persist Security Info=True;User ID=sa;Initial Catalog=asiaticade;Data Source=ROSSI</Connection>
+    <Properties>
+      <Property Name="generatestoredprocedures" Value="True" />
+      <Property Name="dbtiernamespace" Value="asiaticade.asiaticade.asiaticadedb" />
+      <Property Name="dbengine" Value="MSSQL" />
+      <Property Name="templateid" Value="SMSFrameCSharp2005v12" />
+      <Property Name="webuitiernamespace" Value="asiaticade.asiaticade.asiaticadedb.WebUI" />
+      <Property Name="baseoutputdirectory" Value="C:\Users\Rossi\Documents\asiaticade" />
+      <Property Name="generatewinui" Value="False" />
+      <Property Name="winuitiernamespace" Value="asiaticade.asiaticade.asiaticadedb.WinUI" />
+      <Property Name="generateoldnewdirs" Value="True" />
+      <Property Name="copyright" Value="All rights reserved." />
+      <Property Name="generatewebui" Value="False" />
+      <Property Name="targetide" Value="VSNET2003" />
+      <Property Name="generatesqlidentity" Value="True" />
+    </Properties>
+    <Tables>
+      <Table Name="tblAbout" CodeName="tblAbout" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="Title" CodeName="Title" DisplayName="Title" />
+          <Column Name="Description" CodeName="Description" DisplayName="Description" />
+          <Column Name="ImageFile" CodeName="ImageFile" DisplayName="ImageFile" />
+          <Column Name="OrderBy" CodeName="OrderBy" DisplayName="OrderBy" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+          <Column Name="RegDate" CodeName="RegDate" DisplayName="RegDate" />
+          <Column Name="SeoTitle" CodeName="SeoTitle" DisplayName="SeoTitle" />
+          <Column Name="SeoKeyword" CodeName="SeoKeyword" DisplayName="SeoKeyword" />
+          <Column Name="SeoDescription" CodeName="SeoDescription" DisplayName="SeoDescription" />
+        </Columns>
+      </Table>
+      <Table Name="tblTravelGuide" CodeName="tblTravelGuide" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="CountryID" CodeName="CountryID" DisplayName="CountryID" />
+          <Column Name="Title" CodeName="Title" DisplayName="Title" />
+          <Column Name="SubDescription" CodeName="SubDescription" DisplayName="SubDescription" />
+          <Column Name="Description" CodeName="Description" DisplayName="Description" />
+          <Column Name="ImageFile" CodeName="ImageFile" DisplayName="ImageFile" />
+          <Column Name="BannerFile" CodeName="BannerFile" DisplayName="BannerFile" />
+          <Column Name="OrderBy" CodeName="OrderBy" DisplayName="OrderBy" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+          <Column Name="RegDate" CodeName="RegDate" DisplayName="RegDate" />
+          <Column Name="Tag" CodeName="Tag" DisplayName="Tag" />
+          <Column Name="SeoTitle" CodeName="SeoTitle" DisplayName="SeoTitle" />
+          <Column Name="SeoKeyword" CodeName="SeoKeyword" DisplayName="SeoKeyword" />
+          <Column Name="SeoDescription" CodeName="SeoDescription" DisplayName="SeoDescription" />
+        </Columns>
+      </Table>
+    </Tables>
+    <Procedures />
+  </Database>
+</Project>

@@ -1,0 +1,72 @@
+D:\My Project\9. ESupplyChain\1. CODE\v2\WebUI\Bin\DataAccess.dll.config
+D:\My Project\9. ESupplyChain\1. CODE\v2\WebUI\Bin\DataAccess.dll
+D:\My Project\9. ESupplyChain\1. CODE\v2\WebUI\Bin\DataAccess.pdb
+D:\My Project\9. ESupplyChain\1. CODE\v2\WebUI\Bin\DataAccess.xml
+D:\My Project\9. ESupplyChain\1. CODE\v2\DataAccess\obj\Debug\DataAccess.csProjAssemblyReference.cache
+D:\My Project\9. ESupplyChain\1. CODE\v2\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+D:\My Project\9. ESupplyChain\1. CODE\v2\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+D:\My Project\9. ESupplyChain\1. CODE\v2\DataAccess\obj\Debug\DataAccess.dll
+D:\My Project\9. ESupplyChain\1. CODE\v2\DataAccess\obj\Debug\DataAccess.pdb
+C:\Work\HomeWork\Xuanhoa\WebUI\Bin\DataAccess.dll.config
+C:\Work\HomeWork\Xuanhoa\WebUI\Bin\DataAccess.dll
+C:\Work\HomeWork\Xuanhoa\WebUI\Bin\DataAccess.pdb
+C:\Work\HomeWork\Xuanhoa\WebUI\Bin\DataAccess.xml
+C:\Work\HomeWork\Xuanhoa\DataAccess\obj\Debug\DataAccess.csProjAssemblyReference.cache
+C:\Work\HomeWork\Xuanhoa\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+C:\Work\HomeWork\Xuanhoa\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+C:\Work\HomeWork\Xuanhoa\DataAccess\obj\Debug\DataAccess.dll
+C:\Work\HomeWork\Xuanhoa\DataAccess\obj\Debug\DataAccess.pdb
+E:\Thuctap\WebUI\Bin\DataAccess.dll.config
+E:\Thuctap\WebUI\Bin\DataAccess.dll
+E:\Thuctap\WebUI\Bin\DataAccess.pdb
+E:\Thuctap\WebUI\Bin\DataAccess.xml
+E:\Thuctap\DataAccess\obj\Debug\DataAccess.csProj.AssemblyReference.cache
+E:\Thuctap\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+E:\Thuctap\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+E:\Thuctap\DataAccess\obj\Debug\DataAccess.dll
+E:\Thuctap\DataAccess\obj\Debug\DataAccess.pdb
+D:\CheckVN2022\WarehouseXuanHoa\WebUI\Bin\DataAccess.dll.config
+D:\CheckVN2022\WarehouseXuanHoa\WebUI\Bin\DataAccess.dll
+D:\CheckVN2022\WarehouseXuanHoa\WebUI\Bin\DataAccess.pdb
+D:\CheckVN2022\WarehouseXuanHoa\WebUI\Bin\DataAccess.xml
+D:\CheckVN2022\WarehouseXuanHoa\DataAccess\obj\Debug\DataAccess.csProj.AssemblyReference.cache
+D:\CheckVN2022\WarehouseXuanHoa\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+D:\CheckVN2022\WarehouseXuanHoa\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+D:\CheckVN2022\WarehouseXuanHoa\DataAccess\obj\Debug\DataAccess.dll
+D:\CheckVN2022\WarehouseXuanHoa\DataAccess\obj\Debug\DataAccess.pdb
+D:\THUCTAP\ttap2\WebUI\Bin\DataAccess.dll.config
+D:\THUCTAP\ttap2\WebUI\Bin\DataAccess.dll
+D:\THUCTAP\ttap2\WebUI\Bin\DataAccess.pdb
+D:\THUCTAP\ttap2\WebUI\Bin\DataAccess.xml
+D:\THUCTAP\ttap2\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+D:\THUCTAP\ttap2\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\THUCTAP\ttap2\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+D:\THUCTAP\ttap2\DataAccess\obj\Debug\DataAccess.dll
+D:\THUCTAP\ttap2\DataAccess\obj\Debug\DataAccess.pdb
+E:\Thuctap\v2\WebUI\Bin\DataAccess.dll.config
+E:\Thuctap\v2\WebUI\Bin\DataAccess.dll
+E:\Thuctap\v2\WebUI\Bin\DataAccess.pdb
+E:\Thuctap\v2\WebUI\Bin\DataAccess.xml
+E:\Thuctap\v2\DataAccess\obj\Debug\DataAccess.csProj.AssemblyReference.cache
+E:\Thuctap\v2\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+E:\Thuctap\v2\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+E:\Thuctap\v2\DataAccess\obj\Debug\DataAccess.dll
+E:\Thuctap\v2\DataAccess\obj\Debug\DataAccess.pdb
+D:\DuAn\XuanHoa\WebUI\Bin\DataAccess.dll.config
+D:\DuAn\XuanHoa\WebUI\Bin\DataAccess.dll
+D:\DuAn\XuanHoa\WebUI\Bin\DataAccess.pdb
+D:\DuAn\XuanHoa\WebUI\Bin\DataAccess.xml
+D:\DuAn\XuanHoa\DataAccess\obj\Debug\DataAccess.csProj.AssemblyReference.cache
+D:\DuAn\XuanHoa\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+D:\DuAn\XuanHoa\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+D:\DuAn\XuanHoa\DataAccess\obj\Debug\DataAccess.dll
+D:\DuAn\XuanHoa\DataAccess\obj\Debug\DataAccess.pdb
+D:\Code\WebUI\Bin\DataAccess.dll.config
+D:\Code\WebUI\Bin\DataAccess.dll
+D:\Code\WebUI\Bin\DataAccess.pdb
+D:\Code\WebUI\Bin\DataAccess.xml
+D:\Code\DataAccess\obj\Debug\DataAccess.csProj.AssemblyReference.cache
+D:\Code\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+D:\Code\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+D:\Code\DataAccess\obj\Debug\DataAccess.dll
+D:\Code\DataAccess\obj\Debug\DataAccess.pdb

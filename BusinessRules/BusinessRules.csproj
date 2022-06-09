@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29C30324-29B3-4310-BC11-A222A045BAA1}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>BusinessRules</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BusinessRules</RootNamespace>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\WebUI\Bin\</OutputPath>
+    <DocumentationFile>BusinessRules.xml</DocumentationFile>
+    <BaseAddress>285212632</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\WebUI\Bin\</OutputPath>
+    <DocumentationFile>BusinessRules.xml</DocumentationFile>
+    <BaseAddress>285212632</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Name>DataAccess</Name>
+      <Project>{DE6B20DF-F85C-4F9D-AE62-E3B74ADA51F0}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemFrameWork\SystemFrameWork.csproj">
+      <Name>SystemFrameWork</Name>
+      <Project>{91B0A7AC-C143-4754-8412-4381E76CE9D3}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.CSharp" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountTypeBO.cs" />
+    <Compile Include="Account_CheckVNBO.cs" />
+    <Compile Include="ActiveLinkBO.cs" />
+    <Compile Include="AgencyBO.cs" />
+    <Compile Include="AreaBO.cs" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaoHiemBO.cs" />
+    <Compile Include="BNN_BackLinkBO.cs" />
+    <Compile Include="BNN_BannerBO.cs" />
+    <Compile Include="BNN_BrandBO.cs" />
+    <Compile Include="BNN_ConfigBO.cs" />
+    <Compile Include="BNN_ContactBO.cs" />
+    <Compile Include="BNN_CountryBO.cs" />
+    <Compile Include="BNN_CountryVsDocumentBO.cs" />
+    <Compile Include="BNN_DocumentBO.cs" />
+    <Compile Include="BNN_DocumentCategoryBO.cs" />
+    <Compile Include="BNN_FeedbackBO.cs" />
+    <Compile Include="BNN_MemberBO.cs" />
+    <Compile Include="BNN_NewsBO.cs" />
+    <Compile Include="BNN_NewsCategoryBO.cs" />
+    <Compile Include="BNN_NewsVsDocumentBO.cs" />
+    <Compile Include="BNN_OrderBO.cs" />
+    <Compile Include="BNN_OrderDetailBO.cs" />
+    <Compile Include="BNN_ProductBO.cs" />
+    <Compile Include="BNN_QABO.cs" />
+    <Compile Include="BNN_QualityBO.cs" />
+    <Compile Include="BNN_RegionBO.cs" />
+    <Compile Include="BNN_RegionVsLocationBO.cs" />
+    <Compile Include="BNN_VideoBO.cs" />
+    <Compile Include="BranchBO.cs" />
+    <Compile Include="BusinessRulesBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessRulesLocator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessTypeBO.cs" />
+    <Compile Include="ChainLinkBO.cs" />
+    <Compile Include="ContactBO.cs" />
+    <Compile Include="CountryBO.cs" />
+    <Compile Include="CustomerBO.cs" />
+    <Compile Include="CustomerTypeBO.cs" />
+    <Compile Include="DepartmentBO.cs" />
+    <Compile Include="DepartmentManBO.cs" />
+    <Compile Include="DiscountBO.cs" />
+    <Compile Include="DistrictBO.cs" />
+    <Compile Include="EmailTemplateBO.cs" />
+    <Compile Include="FarmBO.cs" />
+    <Compile Include="FarmGroupBO.cs" />
+    <Compile Include="FarmGroupInterBO.cs" />
+    <Compile Include="FarmStatusBO.cs" />
+    <Compile Include="FCMClientBO.cs" />
+    <Compile Include="FCMFormBO.cs" />
+    <Compile Include="FCMMessageBO.cs" />
+    <Compile Include="FCMMessageForTokkenBO.cs" />
+    <Compile Include="FunctionBO.cs" />
+    <Compile Include="FunctionGroupBO.cs" />
+    <Compile Include="FunctionGroupMenuBO.cs" />
+    <Compile Include="LanguageBO.cs" />
+    <Compile Include="LocationBO.cs" />
+    <Compile Include="LogHandlerBO.cs" />
+    <Compile Include="MaterialBO.cs" />
+    <Compile Include="MaterialCategoryBO.cs" />
+    <Compile Include="MaterialPriceBO.cs" />
+    <Compile Include="MenuBO.cs" />
+    <Compile Include="MinistryBO.cs" />
+    <Compile Include="NotificationBO.cs" />
+    <Compile Include="NotificationTypeBO.cs" />
+    <Compile Include="PageFunctionBO.cs" />
+    <Compile Include="ProductBO.cs" />
+    <Compile Include="ProductBrandBO.cs" />
+    <Compile Include="ProductBrandChangeBO.cs" />
+    <Compile Include="ProductBrandTypeBO.cs" />
+    <Compile Include="ProductCategoryBO.cs" />
+    <Compile Include="ProductCategory_ESBO.cs" />
+    <Compile Include="ProductCategory_WebBO.cs" />
+    <Compile Include="ProductChangeBO.cs" />
+    <Compile Include="ProductClassifyBO.cs" />
+    <Compile Include="ProductColorBO.cs" />
+    <Compile Include="ProductGalleryBO.cs" />
+    <Compile Include="ProductGallery_ESBO.cs" />
+    <Compile Include="ProductInfoBO.cs" />
+    <Compile Include="ProductInfo_ESBO.cs" />
+    <Compile Include="ProductItemBO.cs" />
+    <Compile Include="ProductPackageBO.cs" />
+    <Compile Include="ProductPackageHistoryBO.cs" />
+    <Compile Include="ProductPackageOrderBO.cs" />
+    <Compile Include="ProductPackageOrderCategoryBO.cs" />
+    <Compile Include="ProductPackageOrderMaterialBO.cs" />
+    <Compile Include="ProductPackageOrderMaterialRuleBO.cs" />
+    <Compile Include="ProductPackageOrderStatusBO.cs" />
+    <Compile Include="ProductPackageStatusBO.cs" />
+    <Compile Include="ProductPackageVsMaterialBO.cs" />
+    <Compile Include="ProductPackageVsTaskTypeBO.cs" />
+    <Compile Include="ProductPictureBO.cs" />
+    <Compile Include="ProductReviewBO.cs" />
+    <Compile Include="ProductSetBO.cs" />
+    <Compile Include="ProductStandardBO.cs" />
+    <Compile Include="ProductTypeBO.cs" />
+    <Compile Include="ProductVsIconBO.cs" />
+    <Compile Include="Product_ESBO.cs" />
+    <Compile Include="QRCodeCustomerRegisterBO.cs" />
+    <Compile Include="QRCodeLocationRegisterBO.cs" />
+    <Compile Include="QRCodeLocationRegister_ESBO.cs" />
+    <Compile Include="QRCodePackageBO.cs" />
+    <Compile Include="QRCodePackageFragment_ESBO.cs" />
+    <Compile Include="QRCodePackageRuleBO.cs" />
+    <Compile Include="QRCodePackageRule_ESBO.cs" />
+    <Compile Include="QRCodePackageVsProductPakageBO.cs" />
+    <Compile Include="QRCodePackageVsProductPakage_ESBO.cs" />
+    <Compile Include="QRCodePackage_ESBO.cs" />
+    <Compile Include="QRCodePublicBO.cs" />
+    <Compile Include="QRCodePublic_ESBO.cs" />
+    <Compile Include="QRCodeSecretBO.cs" />
+    <Compile Include="QRCodeSecret_ESBO.cs" />
+    <Compile Include="QRCodeStatusBO.cs" />
+    <Compile Include="QRCodeStatus_ESBO.cs" />
+    <Compile Include="QRCodeTracking_ESBO.cs" />
+    <Compile Include="QRCodeWarehouseBO.cs" />
+    <Compile Include="QRCodeWarehousePublicBO.cs" />
+    <Compile Include="QRCodeWarehouseRegisterBO.cs" />
+    <Compile Include="QRCodeWarehouseRegister_ESBO.cs" />
+    <Compile Include="QRCodeWarehouseSecretBO.cs" />
+    <Compile Include="QRCodeWorkshopRegisterBO.cs" />
+    <Compile Include="QRCodeWorkshopRegister_ESBO.cs" />
+    <Compile Include="QualityBO.cs" />
+    <Compile Include="ReadNotificationBO.cs" />
+    <Compile Include="RegionBO.cs" />
+    <Compile Include="ReplaceCharBO.cs" />
+    <Compile Include="SalesInformationBO.cs" />
+    <Compile Include="SalesInformationVsProductBO.cs" />
+    <Compile Include="SalesInformationVsProductPackageBO.cs" />
+    <Compile Include="SalesShiftBO.cs" />
+    <Compile Include="SamplingPlanBO.cs" />
+    <Compile Include="SettingBO.cs" />
+    <Compile Include="SitemapBO.cs" />
+    <Compile Include="SkinBO.cs" />
+    <Compile Include="SlideShowBO.cs" />
+    <Compile Include="SMSMessageBO.cs" />
+    <Compile Include="SMSMessageDraftBO.cs" />
+    <Compile Include="StaffTypeBO.cs" />
+    <Compile Include="StoreBO.cs" />
+    <Compile Include="SupplierBO.cs" />
+    <Compile Include="SysLogBO.cs" />
+    <Compile Include="SystemLogBO.cs" />
+    <Compile Include="TagBO.cs" />
+    <Compile Include="TagMapBO.cs" />
+    <Compile Include="TagTypeBO.cs" />
+    <Compile Include="TaskBO.cs" />
+    <Compile Include="TaskStatusBO.cs" />
+    <Compile Include="TaskStepAnswerBO.cs" />
+    <Compile Include="TaskStepBO.cs" />
+    <Compile Include="TaskStepQuestionBO.cs" />
+    <Compile Include="TaskStepVsProductPackageBO.cs" />
+    <Compile Include="TaskTypeBO.cs" />
+    <Compile Include="TestingCertificatesBO.cs" />
+    <Compile Include="TestParameterBO.cs" />
+    <Compile Include="TransporterBO.cs" />
+    <Compile Include="UserNotifyBO.cs" />
+    <Compile Include="UserVsPageFunctionBO.cs" />
+    <Compile Include="UserVsProductBrandBO.cs" />
+    <Compile Include="WardBO.cs" />
+    <Compile Include="WarehouseBO.cs" />
+    <Compile Include="WarehouseExportBO.cs" />
+    <Compile Include="WarehouseExportMaterialBO.cs" />
+    <Compile Include="WarehouseImportBO.cs" />
+    <Compile Include="WarehouseExportNoteBO.cs" />
+    <Compile Include="WarehouseImportNoteBO.cs" />
+    <Compile Include="WarehouseExportNoteDetailBO.cs" />
+    <Compile Include="WarehouseImportNoteDetailBO.cs" />
+    <Compile Include="WarehouseRackBO.cs" />
+    <Compile Include="WarehouseExportNoteDetailSlotBO.cs" />
+    <Compile Include="WarehouseSlotActionBO.cs" />
+    <Compile Include="WarehouseSlotInforBO.cs" />
+    <Compile Include="WarehouseSlotBO.cs" />
+    <Compile Include="WarehouseTempProBO.cs" />
+    <Compile Include="Warehouse_ESBO.cs" />
+    <Compile Include="WEB_PromotionBO.cs" />
+    <Compile Include="WEB_PromotionVsProductBO.cs" />
+    <Compile Include="WEB_SpaceBO.cs" />
+    <Compile Include="WH_CheckSheetBO.cs" />
+    <Compile Include="WH_CheckSheetVsMaterialBO.cs" />
+    <Compile Include="WH_CheckSheet_DetailBO.cs" />
+    <Compile Include="WH_DeliveryNoteBO.cs" />
+    <Compile Include="WH_DeliveryNoteVsMaterialBO.cs" />
+    <Compile Include="WH_MaterialBO.cs" />
+    <Compile Include="WH_MaterialCategoryBO.cs" />
+    <Compile Include="WH_MaterialVsTestParameterBO.cs" />
+    <Compile Include="WH_OrderBO.cs" />
+    <Compile Include="WH_OrderVsProductBO.cs" />
+    <Compile Include="WH_StandardCheckBO.cs" />
+    <Compile Include="WorkshopBO.cs" />
+    <Compile Include="ZoneBO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="1" ProjectGuid="{FCC333B6-0789-4f40-A43B-851DB236E860}">
+  <Database CodeName="asiatica" Schema="dbo">
+    <Connection>Provider=SQLNCLI.1;Password=123456;Persist Security Info=True;User ID=sa;Initial Catalog=asiaticadb2;Data Source=ROSSI\SQLEXPRESS</Connection>
+    <Properties>
+      <Property Name="generatestoredprocedures" Value="True" />
+      <Property Name="dbtiernamespace" Value="asiaticasystem.asiatica.asiaticadb" />
+      <Property Name="dbengine" Value="MSSQL" />
+      <Property Name="templateid" Value="SMSFrameCSharp2005v12" />
+      <Property Name="webuitiernamespace" Value="asiaticasystem.asiatica.asiaticadb.WebUI" />
+      <Property Name="baseoutputdirectory" Value="C:\Users\Rossi\Documents\asiaticadb2" />
+      <Property Name="generatewinui" Value="False" />
+      <Property Name="winuitiernamespace" Value="asiaticasystem.asiatica.asiaticadb.WinUI" />
+      <Property Name="generateoldnewdirs" Value="True" />
+      <Property Name="copyright" Value="All rights reserved." />
+      <Property Name="targetide" Value="VSNET2003" />
+      <Property Name="generatesqlidentity" Value="True" />
+    </Properties>
+    <Tables>
+      <Table Name="tblHotel" CodeName="tblHotel" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="CateID" CodeName="CateID" DisplayName="CateID" />
+          <Column Name="AttractionsID" CodeName="AttractionsID" DisplayName="AttractionsID" />
+          <Column Name="HotelStyleID" CodeName="HotelStyleID" DisplayName="HotelStyleID" />
+          <Column Name="ServiceID" CodeName="ServiceID" DisplayName="ServiceID" />
+          <Column Name="Star" CodeName="Star" DisplayName="Star" />
+          <Column Name="Rating" CodeName="Rating" DisplayName="Rating" />
+          <Column Name="RoomNum" CodeName="RoomNum" DisplayName="RoomNum" />
+          <Column Name="OrderBy" CodeName="OrderBy" DisplayName="OrderBy" />
+          <Column Name="FlgIndex" CodeName="FlgIndex" DisplayName="FlgIndex" />
+          <Column Name="FlgHome" CodeName="FlgHome" DisplayName="FlgHome" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+          <Column Name="RegDate" CodeName="RegDate" DisplayName="RegDate" />
+        </Columns>
+      </Table>
+      <Table Name="tblHotelCategory" CodeName="tblHotelCategory" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="CountryID" CodeName="CountryID" DisplayName="CountryID" />
+          <Column Name="AttractionsID" CodeName="AttractionsID" DisplayName="AttractionsID" />
+          <Column Name="OrderBy" CodeName="OrderBy" DisplayName="OrderBy" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+        </Columns>
+      </Table>
+      <Table Name="tblHotelCategoryLang" CodeName="tblHotelCategoryLang" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="HotelCategoryID" CodeName="HotelCategoryID" DisplayName="HotelCategoryID" />
+          <Column Name="Title" CodeName="Title" DisplayName="Title" />
+          <Column Name="SubDomain" CodeName="SubDomain" DisplayName="SubDomain" />
+          <Column Name="Description" CodeName="Description" DisplayName="Description" />
+          <Column Name="Tag" CodeName="Tag" DisplayName="Tag" />
+          <Column Name="SeoTitle" CodeName="SeoTitle" DisplayName="SeoTitle" />
+          <Column Name="SeoKeyword" CodeName="SeoKeyword" DisplayName="SeoKeyword" />
+          <Column Name="SeoDescription" CodeName="SeoDescription" DisplayName="SeoDescription" />
+          <Column Name="Lang" CodeName="Lang" DisplayName="Lang" />
+        </Columns>
+      </Table>
+      <Table Name="tblHotelGallery" CodeName="tblHotelGallery" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="HotelID" CodeName="HotelID" DisplayName="HotelID" />
+          <Column Name="ImageFile" CodeName="ImageFile" DisplayName="ImageFile" />
+          <Column Name="IsList" CodeName="IsList" DisplayName="IsList" />
+          <Column Name="IsDetail" CodeName="IsDetail" DisplayName="IsDetail" />
+          <Column Name="IsBanner" CodeName="IsBanner" DisplayName="IsBanner" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+        </Columns>
+      </Table>
+      <Table Name="tblHotelGalleryLang" CodeName="tblHotelGalleryLang" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="HotelGalleryID" CodeName="HotelGalleryID" DisplayName="HotelGalleryID" />
+          <Column Name="ImageTitle" CodeName="ImageTitle" DisplayName="ImageTitle" />
+          <Column Name="ImageAlt" CodeName="ImageAlt" DisplayName="ImageAlt" />
+          <Column Name="Lang" CodeName="Lang" DisplayName="Lang" />
+        </Columns>
+      </Table>
+      <Table Name="tblHotelLang" CodeName="tblHotelLang" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="HotelID" CodeName="HotelID" DisplayName="HotelID" />
+          <Column Name="HotelName" CodeName="HotelName" DisplayName="HotelName" />
+          <Column Name="HotelName2" CodeName="HotelName2" DisplayName="HotelName2" />
+          <Column Name="SubDomain" CodeName="SubDomain" DisplayName="SubDomain" />
+          <Column Name="Address" CodeName="Address" DisplayName="Address" />
+          <Column Name="SubDescription" CodeName="SubDescription" DisplayName="SubDescription" />
+          <Column Name="Description" CodeName="Description" DisplayName="Description" />
+          <Column Name="Tag" CodeName="Tag" DisplayName="Tag" />
+          <Column Name="SeoTitle" CodeName="SeoTitle" DisplayName="SeoTitle" />
+          <Column Name="SeoKeyword" CodeName="SeoKeyword" DisplayName="SeoKeyword" />
+          <Column Name="SeoDescription" CodeName="SeoDescription" DisplayName="SeoDescription" />
+          <Column Name="Lang" CodeName="Lang" DisplayName="Lang" />
+        </Columns>
+      </Table>
+      <Table Name="tblHotelService" CodeName="tblHotelService" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+        </Columns>
+      </Table>
+      <Table Name="tblHotelServiceLang" CodeName="tblHotelServiceLang" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="HotelServiceID" CodeName="HotelServiceID" DisplayName="HotelServiceID" />
+          <Column Name="Title" CodeName="Title" DisplayName="Title" />
+          <Column Name="Lang" CodeName="Lang" DisplayName="Lang" />
+        </Columns>
+      </Table>
+      <Table Name="tblHotelStyle" CodeName="tblHotelStyle" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+        </Columns>
+      </Table>
+      <Table Name="tblHotelStyleLang" CodeName="tblHotelStyleLang" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="HotelStyleID" CodeName="HotelStyleID" DisplayName="HotelStyleID" />
+          <Column Name="Title" CodeName="Title" DisplayName="Title" />
+          <Column Name="Lang" CodeName="Lang" DisplayName="Lang" />
+        </Columns>
+      </Table>
+      <Table Name="tblNationality" CodeName="tblNationality" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="NationalityName" CodeName="NationalityName" DisplayName="NationalityName" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+          <Column Name="OrderBy" CodeName="OrderBy" DisplayName="OrderBy" />
+          <Column Name="Lang" CodeName="Lang" DisplayName="Lang" />
+        </Columns>
+      </Table>
+      <Table Name="tblPermissionRole" CodeName="tblPermissionRole" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="RoleID" CodeName="RoleID" DisplayName="RoleID" />
+          <Column Name="FunctionID" CodeName="FunctionID" DisplayName="FunctionID" />
+          <Column Name="PermissionFlg" CodeName="PermissionFlg" DisplayName="PermissionFlg" />
+        </Columns>
+      </Table>
+      <Table Name="tblPriceRequest" CodeName="tblPriceRequest" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="CustomerID" CodeName="CustomerID" DisplayName="CustomerID" />
+          <Column Name="TourID" CodeName="TourID" DisplayName="TourID" />
+          <Column Name="AdultNumber" CodeName="AdultNumber" DisplayName="AdultNumber" />
+          <Column Name="ChildNumber" CodeName="ChildNumber" DisplayName="ChildNumber" />
+          <Column Name="IsPlan" CodeName="IsPlan" DisplayName="IsPlan" />
+          <Column Name="TravelDate" CodeName="TravelDate" DisplayName="TravelDate" />
+          <Column Name="TravelMonth" CodeName="TravelMonth" DisplayName="TravelMonth" />
+          <Column Name="TravelYear" CodeName="TravelYear" DisplayName="TravelYear" />
+          <Column Name="SendDate" CodeName="SendDate" DisplayName="SendDate" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+          <Column Name="Lang" CodeName="Lang" DisplayName="Lang" />
+        </Columns>
+      </Table>
+      <Table Name="tblRole" CodeName="tblRole" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="RoleName" CodeName="RoleName" DisplayName="RoleName" />
+          <Column Name="OrderBy" CodeName="OrderBy" DisplayName="OrderBy" />
+          <Column Name="RegDate" CodeName="RegDate" DisplayName="RegDate" />
+        </Columns>
+      </Table>
+      <Table Name="tblTour" CodeName="tblTour" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="CateID" CodeName="CateID" DisplayName="CateID" />
+          <Column Name="TourCode" CodeName="TourCode" DisplayName="TourCode" />
+          <Column Name="TourName" CodeName="TourName" DisplayName="TourName" />
+          <Column Name="TourName2" CodeName="TourName2" DisplayName="TourName2" />
+          <Column Name="DayNumber" CodeName="DayNumber" DisplayName="DayNumber" />
+          <Column Name="TourHighlight" CodeName="TourHighlight" DisplayName="TourHighlight" />
+          <Column Name="Overview" CodeName="Overview" DisplayName="Overview" />
+          <Column Name="Briefing" CodeName="Briefing" DisplayName="Briefing" />
+          <Column Name="Supplement" CodeName="Supplement" DisplayName="Supplement" />
+          <Column Name="Include" CodeName="Include" DisplayName="Include" />
+          <Column Name="Exclude" CodeName="Exclude" DisplayName="Exclude" />
+          <Column Name="FlgIndex" CodeName="FlgIndex" DisplayName="FlgIndex" />
+          <Column Name="FlgHome" CodeName="FlgHome" DisplayName="FlgHome" />
+          <Column Name="FlgPromotion" CodeName="FlgPromotion" DisplayName="FlgPromotion" />
+          <Column Name="Tag" CodeName="Tag" DisplayName="Tag" />
+          <Column Name="SeoTitle" CodeName="SeoTitle" DisplayName="SeoTitle" />
+          <Column Name="SeoKeyword" CodeName="SeoKeyword" DisplayName="SeoKeyword" />
+          <Column Name="SeoDescription" CodeName="SeoDescription" DisplayName="SeoDescription" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+          <Column Name="Lang" CodeName="Lang" DisplayName="Lang" />
+          <Column Name="RegDate" CodeName="RegDate" DisplayName="RegDate" />
+        </Columns>
+      </Table>
+    </Tables>
+    <Procedures />
+  </Database>
+</Project>

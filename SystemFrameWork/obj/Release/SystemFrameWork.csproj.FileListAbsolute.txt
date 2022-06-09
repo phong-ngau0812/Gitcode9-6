@@ -1,0 +1,20 @@
+D:\Source Code\EsupplyChain\SystemFrameWork\bin\SystemFrameWork.dll
+D:\Source Code\EsupplyChain\SystemFrameWork\bin\SystemFrameWork.xml
+D:\Source Code\EsupplyChain\SystemFrameWork\obj\Release\SystemFrameWork.csprojAssemblyReference.cache
+D:\Source Code\EsupplyChain\SystemFrameWork\obj\Release\SystemFrameWork.csproj.CoreCompileInputs.cache
+D:\Source Code\EsupplyChain\SystemFrameWork\obj\Release\SystemFrameWork.dll
+E:\ES\SystemFrameWork\bin\SystemFrameWork.dll
+E:\ES\SystemFrameWork\bin\SystemFrameWork.xml
+E:\ES\SystemFrameWork\obj\Release\SystemFrameWork.csprojAssemblyReference.cache
+E:\ES\SystemFrameWork\obj\Release\SystemFrameWork.csproj.CoreCompileInputs.cache
+E:\ES\SystemFrameWork\obj\Release\SystemFrameWork.dll
+D:\My Project\9. ESupplyChain\1. CODE\v2\SystemFrameWork\bin\SystemFrameWork.dll
+D:\My Project\9. ESupplyChain\1. CODE\v2\SystemFrameWork\bin\SystemFrameWork.xml
+D:\My Project\9. ESupplyChain\1. CODE\v2\SystemFrameWork\obj\Release\SystemFrameWork.csprojAssemblyReference.cache
+D:\My Project\9. ESupplyChain\1. CODE\v2\SystemFrameWork\obj\Release\SystemFrameWork.csproj.CoreCompileInputs.cache
+D:\My Project\9. ESupplyChain\1. CODE\v2\SystemFrameWork\obj\Release\SystemFrameWork.dll
+C:\Work\HomeWork\Xuanhoa\SystemFrameWork\bin\SystemFrameWork.dll
+C:\Work\HomeWork\Xuanhoa\SystemFrameWork\bin\SystemFrameWork.xml
+C:\Work\HomeWork\Xuanhoa\SystemFrameWork\obj\Release\SystemFrameWork.csproj.CoreCompileInputs.cache
+C:\Work\HomeWork\Xuanhoa\SystemFrameWork\obj\Release\SystemFrameWork.dll
+C:\Work\HomeWork\Xuanhoa\SystemFrameWork\obj\Release\SystemFrameWork.csprojAssemblyReference.cache

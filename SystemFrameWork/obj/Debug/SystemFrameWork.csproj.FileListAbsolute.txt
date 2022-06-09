@@ -1,0 +1,20 @@
+D:\My Project\9. ESupplyChain\1. CODE\v2\WebUI\Bin\SystemFrameWork.dll
+D:\My Project\9. ESupplyChain\1. CODE\v2\WebUI\Bin\SystemFrameWork.pdb
+D:\My Project\9. ESupplyChain\1. CODE\v2\WebUI\Bin\SystemFrameWork.xml
+D:\My Project\9. ESupplyChain\1. CODE\v2\SystemFrameWork\obj\Debug\SystemFrameWork.csprojAssemblyReference.cache
+D:\My Project\9. ESupplyChain\1. CODE\v2\SystemFrameWork\obj\Debug\SystemFrameWork.csproj.CoreCompileInputs.cache
+D:\My Project\9. ESupplyChain\1. CODE\v2\SystemFrameWork\obj\Debug\SystemFrameWork.dll
+D:\My Project\9. ESupplyChain\1. CODE\v2\SystemFrameWork\obj\Debug\SystemFrameWork.pdb
+C:\Work\HomeWork\Xuanhoa\WebUI\Bin\SystemFrameWork.dll
+C:\Work\HomeWork\Xuanhoa\WebUI\Bin\SystemFrameWork.pdb
+C:\Work\HomeWork\Xuanhoa\WebUI\Bin\SystemFrameWork.xml
+C:\Work\HomeWork\Xuanhoa\SystemFrameWork\obj\Debug\SystemFrameWork.csproj.CoreCompileInputs.cache
+C:\Work\HomeWork\Xuanhoa\SystemFrameWork\obj\Debug\SystemFrameWork.dll
+C:\Work\HomeWork\Xuanhoa\SystemFrameWork\obj\Debug\SystemFrameWork.pdb
+D:\DuAn\XuanHoa\WebUI\Bin\SystemFrameWork.dll
+D:\DuAn\XuanHoa\WebUI\Bin\SystemFrameWork.pdb
+D:\DuAn\XuanHoa\WebUI\Bin\SystemFrameWork.xml
+D:\DuAn\XuanHoa\SystemFrameWork\obj\Debug\SystemFrameWork.csproj.AssemblyReference.cache
+D:\DuAn\XuanHoa\SystemFrameWork\obj\Debug\SystemFrameWork.csproj.CoreCompileInputs.cache
+D:\DuAn\XuanHoa\SystemFrameWork\obj\Debug\SystemFrameWork.dll
+D:\DuAn\XuanHoa\SystemFrameWork\obj\Debug\SystemFrameWork.pdb

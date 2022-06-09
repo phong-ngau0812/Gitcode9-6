@@ -1,0 +1,66 @@
+D:\Source Code\EsupplyChain\WebUI\Bin\DataAccess.dll.config
+D:\Source Code\EsupplyChain\WebUI\Bin\DataAccess.dll
+D:\Source Code\EsupplyChain\WebUI\Bin\DataAccess.xml
+D:\Source Code\EsupplyChain\DataAccess\obj\Release\DataAccess.csProjAssemblyReference.cache
+D:\Source Code\EsupplyChain\DataAccess\obj\Release\DataAccess.csProj.CoreCompileInputs.cache
+D:\Source Code\EsupplyChain\DataAccess\obj\Release\DataAccess.csProj.CopyComplete
+D:\Source Code\EsupplyChain\DataAccess\obj\Release\DataAccess.dll
+E:\ES\WebUI\Bin\DataAccess.dll.config
+E:\ES\WebUI\Bin\DataAccess.dll
+E:\ES\WebUI\Bin\DataAccess.xml
+E:\ES\DataAccess\obj\Release\DataAccess.csProjAssemblyReference.cache
+E:\ES\DataAccess\obj\Release\DataAccess.csProj.CoreCompileInputs.cache
+E:\ES\DataAccess\obj\Release\DataAccess.csProj.CopyComplete
+E:\ES\DataAccess\obj\Release\DataAccess.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\Source\WebUI\Bin\DataAccess.dll.config
+C:\Users\Phong\Desktop\TTS_CheckVN\Source\WebUI\Bin\DataAccess.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\Source\WebUI\Bin\DataAccess.xml
+C:\Users\Phong\Desktop\TTS_CheckVN\Source\DataAccess\obj\Release\DataAccess.csProjAssemblyReference.cache
+C:\Users\Phong\Desktop\TTS_CheckVN\Source\DataAccess\obj\Release\DataAccess.csProj.CopyComplete
+C:\Users\Phong\Desktop\TTS_CheckVN\Source\DataAccess\obj\Release\DataAccess.dll
+C:\Users\Phong\Desktop\New folder\WebUI\Bin\DataAccess.dll.config
+C:\Users\Phong\Desktop\New folder\WebUI\Bin\DataAccess.dll
+C:\Users\Phong\Desktop\New folder\WebUI\Bin\DataAccess.xml
+C:\Users\Phong\Desktop\New folder\DataAccess\obj\Release\DataAccess.csProjAssemblyReference.cache
+C:\Users\Phong\Desktop\New folder\DataAccess\obj\Release\DataAccess.csProj.CopyComplete
+C:\Users\Phong\Desktop\New folder\DataAccess\obj\Release\DataAccess.dll
+C:\Users\CHECKVN\Desktop\EsuppyChain\WebUI\Bin\DataAccess.dll.config
+C:\Users\CHECKVN\Desktop\EsuppyChain\WebUI\Bin\DataAccess.dll
+C:\Users\CHECKVN\Desktop\EsuppyChain\WebUI\Bin\DataAccess.xml
+C:\Users\CHECKVN\Desktop\EsuppyChain\DataAccess\obj\Release\DataAccess.csProj.AssemblyReference.cache
+C:\Users\CHECKVN\Desktop\EsuppyChain\DataAccess\obj\Release\DataAccess.csProj.CoreCompileInputs.cache
+C:\Users\CHECKVN\Desktop\EsuppyChain\DataAccess\obj\Release\DataAccess.csProj.CopyComplete
+C:\Users\CHECKVN\Desktop\EsuppyChain\DataAccess\obj\Release\DataAccess.dll
+C:\Work\HomeWork\Xuanhoa\DataAccess\obj\Release\DataAccess.csProjAssemblyReference.cache
+C:\Work\HomeWork\Xuanhoa\DataAccess\obj\Release\DataAccess.csProj.CoreCompileInputs.cache
+C:\Work\HomeWork\Xuanhoa\DataAccess\obj\Release\DataAccess.dll
+C:\Work\HomeWork\Xuanhoa\WebUI\Bin\DataAccess.dll.config
+C:\Work\HomeWork\Xuanhoa\WebUI\Bin\DataAccess.dll
+C:\Work\HomeWork\Xuanhoa\WebUI\Bin\DataAccess.xml
+C:\Work\HomeWork\Xuanhoa\DataAccess\obj\Release\DataAccess.csProj.CopyComplete
+D:\CHECKVN\WebUI\Bin\DataAccess.dll.config
+D:\CHECKVN\WebUI\Bin\DataAccess.dll
+D:\CHECKVN\WebUI\Bin\DataAccess.xml
+D:\CHECKVN\DataAccess\obj\Release\DataAccess.csProjAssemblyReference.cache
+D:\CHECKVN\DataAccess\obj\Release\DataAccess.csProj.CopyComplete
+D:\CHECKVN\DataAccess\obj\Release\DataAccess.dll
+C:\Users\CHECKVN\Desktop\XuanHoa\WebUI\Bin\DataAccess.dll.config
+C:\Users\CHECKVN\Desktop\XuanHoa\WebUI\Bin\DataAccess.dll
+C:\Users\CHECKVN\Desktop\XuanHoa\WebUI\Bin\DataAccess.xml
+C:\Users\CHECKVN\Desktop\XuanHoa\DataAccess\obj\Release\DataAccess.csProj.AssemblyReference.cache
+C:\Users\CHECKVN\Desktop\XuanHoa\DataAccess\obj\Release\DataAccess.csProj.CoreCompileInputs.cache
+C:\Users\CHECKVN\Desktop\XuanHoa\DataAccess\obj\Release\DataAccess.csProj.CopyComplete
+C:\Users\CHECKVN\Desktop\XuanHoa\DataAccess\obj\Release\DataAccess.dll
+D:\CheckVN\XuanHoa\WebUI\Bin\DataAccess.dll.config
+D:\CheckVN\XuanHoa\WebUI\Bin\DataAccess.dll
+D:\CheckVN\XuanHoa\WebUI\Bin\DataAccess.xml
+D:\CheckVN\XuanHoa\DataAccess\obj\Release\DataAccess.csProj.AssemblyReference.cache
+D:\CheckVN\XuanHoa\DataAccess\obj\Release\DataAccess.csProj.CoreCompileInputs.cache
+D:\CheckVN\XuanHoa\DataAccess\obj\Release\DataAccess.csProj.CopyComplete
+D:\CheckVN\XuanHoa\DataAccess\obj\Release\DataAccess.dll
+D:\CheckVNv3\DataAccess\obj\Release\DataAccess.csProj.AssemblyReference.cache
+D:\CheckVNv3\DataAccess\obj\Release\DataAccess.csProj.CoreCompileInputs.cache
+D:\CheckVNv3\DataAccess\obj\Release\DataAccess.dll
+D:\CheckVNv3\WebUI\Bin\DataAccess.dll.config
+D:\CheckVNv3\WebUI\Bin\DataAccess.dll
+D:\CheckVNv3\WebUI\Bin\DataAccess.xml

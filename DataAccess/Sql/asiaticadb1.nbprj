@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="1" ProjectGuid="{FCC333B6-0789-4f40-A43B-851DB236E860}">
+  <Database CodeName="asiatica" Schema="dbo">
+    <Connection>Provider=SQLNCLI.1;Password=123456;Persist Security Info=True;User ID=sa;Initial Catalog=asiaticadb1;Data Source=ROSSI\SQLEXPRESS</Connection>
+    <Properties>
+      <Property Name="generatestoredprocedures" Value="True" />
+      <Property Name="dbtiernamespace" Value="asiaticasystem.asiatica.asiaticadb" />
+      <Property Name="dbengine" Value="MSSQL" />
+      <Property Name="templateid" Value="SMSFrameCSharp2005v12" />
+      <Property Name="webuitiernamespace" Value="asiaticasystem.asiatica.asiaticadb.WebUI" />
+      <Property Name="baseoutputdirectory" Value="C:\Users\Rossi\Documents\asiaticadb1" />
+      <Property Name="generatewinui" Value="False" />
+      <Property Name="winuitiernamespace" Value="asiaticasystem.asiatica.asiaticadb.WinUI" />
+      <Property Name="generateoldnewdirs" Value="True" />
+      <Property Name="copyright" Value="All rights reserved." />
+      <Property Name="targetide" Value="VSNET2003" />
+      <Property Name="generatesqlidentity" Value="True" />
+    </Properties>
+    <Tables>
+      <Table Name="tblCustomer" CodeName="tblCustomer" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="CustomerType" CodeName="CustomerType" DisplayName="CustomerType" />
+          <Column Name="Email" CodeName="Email" DisplayName="Email" />
+          <Column Name="FirstName" CodeName="FirstName" DisplayName="FirstName" />
+          <Column Name="LastName" CodeName="LastName" DisplayName="LastName" />
+          <Column Name="Gender" CodeName="Gender" DisplayName="Gender" />
+          <Column Name="NationalityID" CodeName="NationalityID" DisplayName="NationalityID" />
+          <Column Name="Address" CodeName="Address" DisplayName="Address" />
+          <Column Name="ZipCode" CodeName="ZipCode" DisplayName="ZipCode" />
+          <Column Name="City" CodeName="City" DisplayName="City" />
+          <Column Name="CountryID" CodeName="CountryID" DisplayName="CountryID" />
+          <Column Name="Telephone" CodeName="Telephone" DisplayName="Telephone" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+          <Column Name="RegDate" CodeName="RegDate" DisplayName="RegDate" />
+          <Column Name="Lang" CodeName="Lang" DisplayName="Lang" />
+        </Columns>
+      </Table>
+      <Table Name="tblCustomizeBase" CodeName="tblCustomizeBase" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="TourID" CodeName="TourID" DisplayName="TourID" />
+          <Column Name="RequestCode" CodeName="RequestCode" DisplayName="RequestCode" />
+          <Column Name="CustomerID" CodeName="CustomerID" DisplayName="CustomerID" />
+          <Column Name="YouAre" CodeName="YouAre" DisplayName="YouAre" />
+          <Column Name="AdultNumber" CodeName="AdultNumber" DisplayName="AdultNumber" />
+          <Column Name="ChildNumber" CodeName="ChildNumber" DisplayName="ChildNumber" />
+          <Column Name="IsPlan" CodeName="IsPlan" DisplayName="IsPlan" />
+          <Column Name="TravelDate" CodeName="TravelDate" DisplayName="TravelDate" />
+          <Column Name="MonthPlan" CodeName="MonthPlan" DisplayName="MonthPlan" />
+          <Column Name="YearPlan" CodeName="YearPlan" DisplayName="YearPlan" />
+          <Column Name="MoreInfoRequest" CodeName="MoreInfoRequest" DisplayName="MoreInfoRequest" />
+          <Column Name="RequestDate" CodeName="RequestDate" DisplayName="RequestDate" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+          <Column Name="Lang" CodeName="Lang" DisplayName="Lang" />
+        </Columns>
+      </Table>
+      <Table Name="tblCustomizeBaseAgeAdult" CodeName="tblCustomizeBaseAgeAdult" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="CustomizeBaseID" CodeName="CustomizeBaseID" DisplayName="CustomizeBaseID" />
+          <Column Name="AgeAdultID" CodeName="AgeAdultID" DisplayName="AgeAdultID" />
+        </Columns>
+      </Table>
+      <Table Name="tblCustomizeBaseAgeChild" CodeName="tblCustomizeBaseAgeChild" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="CustomizeBaseID" CodeName="CustomizeBaseID" DisplayName="CustomizeBaseID" />
+          <Column Name="AgeChildID" CodeName="AgeChildID" DisplayName="AgeChildID" />
+        </Columns>
+      </Table>
+      <Table Name="tblCustomizeRequest" CodeName="tblCustomizeRequest" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="RequestCode" CodeName="RequestCode" DisplayName="RequestCode" />
+          <Column Name="CustomerID" CodeName="CustomerID" DisplayName="CustomerID" />
+          <Column Name="YouAre" CodeName="YouAre" DisplayName="YouAre" />
+          <Column Name="AdultNumber" CodeName="AdultNumber" DisplayName="AdultNumber" />
+          <Column Name="ChildNumber" CodeName="ChildNumber" DisplayName="ChildNumber" />
+          <Column Name="IsPlan" CodeName="IsPlan" DisplayName="IsPlan" />
+          <Column Name="TravelDate" CodeName="TravelDate" DisplayName="TravelDate" />
+          <Column Name="MonthPlan" CodeName="MonthPlan" DisplayName="MonthPlan" />
+          <Column Name="YearPlan" CodeName="YearPlan" DisplayName="YearPlan" />
+          <Column Name="DayNumber" CodeName="DayNumber" DisplayName="DayNumber" />
+          <Column Name="BudgetForPerson" CodeName="BudgetForPerson" DisplayName="BudgetForPerson" />
+          <Column Name="RequestForDestination" CodeName="RequestForDestination" DisplayName="RequestForDestination" />
+          <Column Name="TypeOfTransport" CodeName="TypeOfTransport" DisplayName="TypeOfTransport" />
+          <Column Name="TypeOfTrip" CodeName="TypeOfTrip" DisplayName="TypeOfTrip" />
+          <Column Name="TypeOfHotel" CodeName="TypeOfHotel" DisplayName="TypeOfHotel" />
+          <Column Name="TypeOfMean" CodeName="TypeOfMean" DisplayName="TypeOfMean" />
+          <Column Name="MoreInfoRequest" CodeName="MoreInfoRequest" DisplayName="MoreInfoRequest" />
+          <Column Name="RequestDate" CodeName="RequestDate" DisplayName="RequestDate" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+          <Column Name="Lang" CodeName="Lang" DisplayName="Lang" />
+        </Columns>
+      </Table>
+      <Table Name="tblCustomizeRequestAgeAdult" CodeName="tblCustomizeRequestAgeAdult" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="CustomizeRequestID" CodeName="CustomizeRequestID" DisplayName="CustomizeRequestID" />
+          <Column Name="AgeAdultID" CodeName="AgeAdultID" DisplayName="AgeAdultID" />
+        </Columns>
+      </Table>
+      <Table Name="tblCustomizeRequestAgeChild" CodeName="tblCustomizeRequestAgeChild" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="CustomizeRequestID" CodeName="CustomizeRequestID" DisplayName="CustomizeRequestID" />
+          <Column Name="AgeChildID" CodeName="AgeChildID" DisplayName="AgeChildID" />
+        </Columns>
+      </Table>
+      <Table Name="tblCustomizeRequestThingsToDo" CodeName="tblCustomizeRequestThingsToDo" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="CustomizeRequestID" CodeName="CustomizeRequestID" DisplayName="CustomizeRequestID" />
+          <Column Name="CountryID" CodeName="CountryID" DisplayName="CountryID" />
+          <Column Name="ThingsToDoName" CodeName="ThingsToDoName" DisplayName="ThingsToDoName" />
+        </Columns>
+      </Table>
+      <Table Name="tblCustomizeWishlist" CodeName="tblCustomizeWishlist" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="RequestCode" CodeName="RequestCode" DisplayName="RequestCode" />
+          <Column Name="CustomerID" CodeName="CustomerID" DisplayName="CustomerID" />
+          <Column Name="YouAre" CodeName="YouAre" DisplayName="YouAre" />
+          <Column Name="AdultNumber" CodeName="AdultNumber" DisplayName="AdultNumber" />
+          <Column Name="ChildNumber" CodeName="ChildNumber" DisplayName="ChildNumber" />
+          <Column Name="IsPlan" CodeName="IsPlan" DisplayName="IsPlan" />
+          <Column Name="TravelDate" CodeName="TravelDate" DisplayName="TravelDate" />
+          <Column Name="MonthPlan" CodeName="MonthPlan" DisplayName="MonthPlan" />
+          <Column Name="YearPlan" CodeName="YearPlan" DisplayName="YearPlan" />
+          <Column Name="DayNumber" CodeName="DayNumber" DisplayName="DayNumber" />
+          <Column Name="BudgetForPerson" CodeName="BudgetForPerson" DisplayName="BudgetForPerson" />
+          <Column Name="TypeOfTransport" CodeName="TypeOfTransport" DisplayName="TypeOfTransport" />
+          <Column Name="TypeOfTrip" CodeName="TypeOfTrip" DisplayName="TypeOfTrip" />
+          <Column Name="TypeOfHotel" CodeName="TypeOfHotel" DisplayName="TypeOfHotel" />
+          <Column Name="TypeOfMean" CodeName="TypeOfMean" DisplayName="TypeOfMean" />
+          <Column Name="MoreInfoRequest" CodeName="MoreInfoRequest" DisplayName="MoreInfoRequest" />
+          <Column Name="RequestDate" CodeName="RequestDate" DisplayName="RequestDate" />
+          <Column Name="Status" CodeName="Status" DisplayName="Status" />
+          <Column Name="Lang" CodeName="Lang" DisplayName="Lang" />
+        </Columns>
+      </Table>
+      <Table Name="tblCustomizeWishlistAgeAdult" CodeName="tblCustomizeWishlistAgeAdult" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="CustomizeWishlistID" CodeName="CustomizeWishlistID" DisplayName="CustomizeWishlistID" />
+          <Column Name="AgeAdultID" CodeName="AgeAdultID" DisplayName="AgeAdultID" />
+        </Columns>
+      </Table>
+      <Table Name="tblCustomizeWishlistAgeChild" CodeName="tblCustomizeWishlistAgeChild" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="CustomizeWishlistID" CodeName="CustomizeWishlistID" DisplayName="CustomizeWishlistID" />
+          <Column Name="AgeChildID" CodeName="AgeChildID" DisplayName="AgeChildID" />
+        </Columns>
+      </Table>
+      <Table Name="tblCustomizeWishlistHotel" CodeName="tblCustomizeWishlistHotel" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="CustomizeWishlistID" CodeName="CustomizeWishlistID" DisplayName="CustomizeWishlistID" />
+          <Column Name="HotelID" CodeName="HotelID" DisplayName="HotelID" />
+        </Columns>
+      </Table>
+      <Table Name="tblCustomizeWishlistThingsToDo" CodeName="tblCustomizeWishlistThingsToDo" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="CustomizeWishlistID" CodeName="CustomizeWishlistID" DisplayName="CustomizeWishlistID" />
+          <Column Name="ThingsToDoID" CodeName="ThingsToDoID" DisplayName="ThingsToDoID" />
+        </Columns>
+      </Table>
+      <Table Name="tblDepartment" CodeName="tblDepartment" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="CompanyID" CodeName="CompanyID" DisplayName="CompanyID" />
+          <Column Name="Name" CodeName="Name" DisplayName="Name" />
+          <Column Name="OrderBy" CodeName="OrderBy" DisplayName="OrderBy" />
+        </Columns>
+      </Table>
+      <Table Name="tblFunction" CodeName="tblFunction" Active="true" Updatable="true">
+        <Columns>
+          <Column Name="ID" CodeName="ID" DisplayName="ID" />
+          <Column Name="FunctionName" CodeName="FunctionName" DisplayName="FunctionName" />
+          <Column Name="OrderBy" CodeName="OrderBy" DisplayName="OrderBy" />
+        </Columns>
+      </Table>
+    </Tables>
+    <Procedures />
+  </Database>
+</Project>

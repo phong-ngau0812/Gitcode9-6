@@ -1,0 +1,935 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{84AF2FB2-D3CC-4753-8C5C-1AA143B3F8B4}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>DataAccess</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DataAccess</RootNamespace>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\WebUI\Bin\</OutputPath>
+    <DocumentationFile>DataAccess.xml</DocumentationFile>
+    <BaseAddress>285212622</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\WebUI\Bin\</OutputPath>
+    <DocumentationFile>DataAccess.xml</DocumentationFile>
+    <BaseAddress>285212623</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.XML" />
+    <ProjectReference Include="..\SystemFrameWork\SystemFrameWork.csProj">
+      <Name>SystemFrameWork</Name>
+      <Project>{91B0A7AC-C143-4754-8412-4381E76CE9D3}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.CSharp" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\AccountTypeCollectionBase.cs" />
+    <Compile Include="Base\AccountTypeRowBase.cs" />
+    <Compile Include="Base\Account_CheckVNCollectionBase.cs" />
+    <Compile Include="Base\Account_CheckVNRowBase.cs" />
+    <Compile Include="Base\ActiveLinkCollectionBase.cs" />
+    <Compile Include="Base\ActiveLinkRowBase.cs" />
+    <Compile Include="Base\AgencyCollectionBase.cs" />
+    <Compile Include="Base\AgencyRowBase.cs" />
+    <Compile Include="Base\AreaCollectionBase.cs" />
+    <Compile Include="Base\AreaRowBase.cs" />
+    <Compile Include="Base\BaoHiemCollectionBase.cs" />
+    <Compile Include="Base\BaoHiemRowBase.cs" />
+    <Compile Include="Base\BNN_BackLinkCollectionBase.cs" />
+    <Compile Include="Base\BNN_BackLinkRowBase.cs" />
+    <Compile Include="Base\BNN_BannerCollectionBase.cs" />
+    <Compile Include="Base\BNN_BannerRowBase.cs" />
+    <Compile Include="Base\BNN_BrandCollectionBase.cs" />
+    <Compile Include="Base\BNN_BrandRowBase.cs" />
+    <Compile Include="Base\BNN_ConfigCollectionBase.cs" />
+    <Compile Include="Base\BNN_ConfigRowBase.cs" />
+    <Compile Include="Base\BNN_ContactCollectionBase.cs" />
+    <Compile Include="Base\BNN_ContactRowBase.cs" />
+    <Compile Include="Base\BNN_CountryCollectionBase.cs" />
+    <Compile Include="Base\BNN_CountryRowBase.cs" />
+    <Compile Include="Base\BNN_CountryVsDocumentCollectionBase.cs" />
+    <Compile Include="Base\BNN_CountryVsDocumentRowBase.cs" />
+    <Compile Include="Base\BNN_DocumentCategoryCollectionBase.cs" />
+    <Compile Include="Base\BNN_DocumentCategoryRowBase.cs" />
+    <Compile Include="Base\BNN_DocumentCollectionBase.cs" />
+    <Compile Include="Base\BNN_DocumentRowBase.cs" />
+    <Compile Include="Base\BNN_FeedbackCollectionBase.cs" />
+    <Compile Include="Base\BNN_FeedbackRowBase.cs" />
+    <Compile Include="Base\BNN_MemberCollectionBase.cs" />
+    <Compile Include="Base\BNN_MemberRowBase.cs" />
+    <Compile Include="Base\BNN_NewsCategoryCollectionBase.cs" />
+    <Compile Include="Base\BNN_NewsCategoryRowBase.cs" />
+    <Compile Include="Base\BNN_NewsCollectionBase.cs" />
+    <Compile Include="Base\BNN_NewsRowBase.cs" />
+    <Compile Include="Base\BNN_NewsVsDocumentCollectionBase.cs" />
+    <Compile Include="Base\BNN_NewsVsDocumentRowBase.cs" />
+    <Compile Include="Base\BNN_OrderCollectionBase.cs" />
+    <Compile Include="Base\BNN_OrderDetailCollectionBase.cs" />
+    <Compile Include="Base\BNN_OrderDetailRowBase.cs" />
+    <Compile Include="Base\BNN_OrderRowBase.cs" />
+    <Compile Include="Base\BNN_ProductCollectionBase.cs" />
+    <Compile Include="Base\BNN_ProductRowBase.cs" />
+    <Compile Include="Base\BNN_QACollectionBase.cs" />
+    <Compile Include="Base\BNN_QARowBase.cs" />
+    <Compile Include="Base\BNN_QualityCollectionBase.cs" />
+    <Compile Include="Base\BNN_QualityRowBase.cs" />
+    <Compile Include="Base\BNN_RegionCollectionBase.cs" />
+    <Compile Include="Base\BNN_RegionRowBase.cs" />
+    <Compile Include="Base\BNN_RegionVsLocationCollectionBase.cs" />
+    <Compile Include="Base\BNN_RegionVsLocationRowBase.cs" />
+    <Compile Include="Base\BNN_VideoCollectionBase.cs" />
+    <Compile Include="Base\BNN_VideoRowBase.cs" />
+    <Compile Include="Base\BranchCollectionBase.cs" />
+    <Compile Include="Base\BranchRowBase.cs" />
+    <Compile Include="Base\BusinessTypeCollectionBase.cs" />
+    <Compile Include="Base\BusinessTypeRowBase.cs" />
+    <Compile Include="Base\ChainLinkCollectionBase.cs" />
+    <Compile Include="Base\ChainLinkRowBase.cs" />
+    <Compile Include="Base\ConllectionPDManBase.cs" />
+    <Compile Include="Base\ConllectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\ContactCollectionBase.cs" />
+    <Compile Include="Base\ContactRowBase.cs" />
+    <Compile Include="Base\CountryCollectionBase.cs" />
+    <Compile Include="Base\CountryRowBase.cs" />
+    <Compile Include="Base\CustomerCollectionBase.cs" />
+    <Compile Include="Base\CustomerRowBase.cs" />
+    <Compile Include="Base\CustomerTypeCollectionBase.cs" />
+    <Compile Include="Base\CustomerTypeRowBase.cs" />
+    <Compile Include="Base\DataAccessLocatorBase.cs" />
+    <Compile Include="Base\DatabaseBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\DepartmentCollectionBase.cs" />
+    <Compile Include="Base\DepartmentManCollectionBase.cs" />
+    <Compile Include="Base\DepartmentManRowBase.cs" />
+    <Compile Include="Base\DepartmentRowBase.cs" />
+    <Compile Include="Base\DiscountCollectionBase.cs" />
+    <Compile Include="Base\DiscountRowBase.cs" />
+    <Compile Include="Base\DistrictCollectionBase.cs" />
+    <Compile Include="Base\DistrictRowBase.cs" />
+    <Compile Include="Base\EmailTemplateCollectionBase.cs" />
+    <Compile Include="Base\EmailTemplateRowBase.cs" />
+    <Compile Include="Base\FarmCollectionBase.cs" />
+    <Compile Include="Base\FarmGroupCollectionBase.cs" />
+    <Compile Include="Base\FarmGroupInterCollectionBase.cs" />
+    <Compile Include="Base\FarmGroupInterRowBase.cs" />
+    <Compile Include="Base\FarmGroupRowBase.cs" />
+    <Compile Include="Base\FarmRowBase.cs" />
+    <Compile Include="Base\FarmStatusCollectionBase.cs" />
+    <Compile Include="Base\FarmStatusRowBase.cs" />
+    <Compile Include="Base\FCMClientCollectionBase.cs" />
+    <Compile Include="Base\FCMClientRowBase.cs" />
+    <Compile Include="Base\FCMFormCollectionBase.cs" />
+    <Compile Include="Base\FCMFormRowBase.cs" />
+    <Compile Include="Base\FCMMessageCollectionBase.cs" />
+    <Compile Include="Base\FCMMessageForTokkenCollectionBase.cs" />
+    <Compile Include="Base\FCMMessageForTokkenRowBase.cs" />
+    <Compile Include="Base\FCMMessageRowBase.cs" />
+    <Compile Include="Base\FunctionCollectionBase.cs" />
+    <Compile Include="Base\FunctionGroupCollectionBase.cs" />
+    <Compile Include="Base\FunctionGroupMenuCollectionBase.cs" />
+    <Compile Include="Base\FunctionGroupMenuRowBase.cs" />
+    <Compile Include="Base\FunctionGroupRowBase.cs" />
+    <Compile Include="Base\FunctionRowBase.cs" />
+    <Compile Include="Base\LanguageCollectionBase.cs" />
+    <Compile Include="Base\LanguageRowBase.cs" />
+    <Compile Include="Base\LocationCollectionBase.cs" />
+    <Compile Include="Base\LocationRowBase.cs" />
+    <Compile Include="Base\LogHandlerCollectionBase.cs" />
+    <Compile Include="Base\LogHandlerRowBase.cs" />
+    <Compile Include="Base\MaterialCategoryCollectionBase.cs" />
+    <Compile Include="Base\MaterialCategoryRowBase.cs" />
+    <Compile Include="Base\MaterialCollectionBase.cs" />
+    <Compile Include="Base\MaterialPriceCollectionBase.cs" />
+    <Compile Include="Base\MaterialPriceRowBase.cs" />
+    <Compile Include="Base\MaterialRowBase.cs" />
+    <Compile Include="Base\MenuCollectionBase.cs" />
+    <Compile Include="Base\MenuRowBase.cs" />
+    <Compile Include="Base\MinistryCollectionBase.cs" />
+    <Compile Include="Base\MinistryRowBase.cs" />
+    <Compile Include="Base\NotificationCollectionBase.cs" />
+    <Compile Include="Base\NotificationRowBase.cs" />
+    <Compile Include="Base\NotificationTypeCollectionBase.cs" />
+    <Compile Include="Base\NotificationTypeRowBase.cs" />
+    <Compile Include="Base\PageFunctionCollectionBase.cs" />
+    <Compile Include="Base\PageFunctionRowBase.cs" />
+    <Compile Include="Base\ProductBrandChangeCollectionBase.cs" />
+    <Compile Include="Base\ProductBrandChangeRowBase.cs" />
+    <Compile Include="Base\ProductBrandCollectionBase.cs" />
+    <Compile Include="Base\ProductBrandRowBase.cs" />
+    <Compile Include="Base\ProductBrandTypeCollectionBase.cs" />
+    <Compile Include="Base\ProductBrandTypeRowBase.cs" />
+    <Compile Include="Base\ProductCategoryCollectionBase.cs" />
+    <Compile Include="Base\ProductCategoryRowBase.cs" />
+    <Compile Include="Base\ProductCategory_ESCollectionBase.cs" />
+    <Compile Include="Base\ProductCategory_ESRowBase.cs" />
+    <Compile Include="Base\ProductCategory_WebCollectionBase.cs" />
+    <Compile Include="Base\ProductCategory_WebRowBase.cs" />
+    <Compile Include="Base\ProductChangeCollectionBase.cs" />
+    <Compile Include="Base\ProductChangeRowBase.cs" />
+    <Compile Include="Base\ProductClassifyCollectionBase.cs" />
+    <Compile Include="Base\ProductClassifyRowBase.cs" />
+    <Compile Include="Base\ProductCollectionBase.cs" />
+    <Compile Include="Base\ProductColorCollectionBase.cs" />
+    <Compile Include="Base\ProductColorRowBase.cs" />
+    <Compile Include="Base\ProductGalleryCollectionBase.cs" />
+    <Compile Include="Base\ProductGalleryRowBase.cs" />
+    <Compile Include="Base\ProductGallery_ESCollectionBase.cs" />
+    <Compile Include="Base\ProductGallery_ESRowBase.cs" />
+    <Compile Include="Base\ProductInfoCollectionBase.cs" />
+    <Compile Include="Base\ProductInfoRowBase.cs" />
+    <Compile Include="Base\ProductInfo_ESCollectionBase.cs" />
+    <Compile Include="Base\ProductInfo_ESRowBase.cs" />
+    <Compile Include="Base\ProductItemCollectionBase.cs" />
+    <Compile Include="Base\ProductItemRowBase.cs" />
+    <Compile Include="Base\ProductPackageCollectionBase.cs" />
+    <Compile Include="Base\ProductPackageHistoryCollectionBase.cs" />
+    <Compile Include="Base\ProductPackageHistoryRowBase.cs" />
+    <Compile Include="Base\ProductPackageOrderCategoryCollectionBase.cs" />
+    <Compile Include="Base\ProductPackageOrderCategoryRowBase.cs" />
+    <Compile Include="Base\ProductPackageOrderCollectionBase.cs" />
+    <Compile Include="Base\ProductPackageOrderMaterialCollectionBase.cs" />
+    <Compile Include="Base\ProductPackageOrderMaterialRowBase.cs" />
+    <Compile Include="Base\ProductPackageOrderMaterialRuleCollectionBase.cs" />
+    <Compile Include="Base\ProductPackageOrderMaterialRuleRowBase.cs" />
+    <Compile Include="Base\ProductPackageOrderRowBase.cs" />
+    <Compile Include="Base\ProductPackageOrderStatusCollectionBase.cs" />
+    <Compile Include="Base\ProductPackageOrderStatusRowBase.cs" />
+    <Compile Include="Base\ProductPackageRowBase.cs" />
+    <Compile Include="Base\ProductPackageStatusCollectionBase.cs" />
+    <Compile Include="Base\ProductPackageStatusRowBase.cs" />
+    <Compile Include="Base\ProductPackageVsMaterialCollectionBase.cs" />
+    <Compile Include="Base\ProductPackageVsMaterialRowBase.cs" />
+    <Compile Include="Base\ProductPackageVsTaskTypeCollectionBase.cs" />
+    <Compile Include="Base\ProductPackageVsTaskTypeRowBase.cs" />
+    <Compile Include="Base\ProductPictureCollectionBase.cs" />
+    <Compile Include="Base\ProductPictureRowBase.cs" />
+    <Compile Include="Base\ProductReviewCollectionBase.cs" />
+    <Compile Include="Base\ProductReviewRowBase.cs" />
+    <Compile Include="Base\ProductRowBase.cs" />
+    <Compile Include="Base\ProductSetCollectionBase.cs" />
+    <Compile Include="Base\ProductSetRowBase.cs" />
+    <Compile Include="Base\ProductStandardCollectionBase.cs" />
+    <Compile Include="Base\ProductStandardRowBase.cs" />
+    <Compile Include="Base\ProductTypeCollectionBase.cs" />
+    <Compile Include="Base\ProductTypeRowBase.cs" />
+    <Compile Include="Base\ProductVsIconCollectionBase.cs" />
+    <Compile Include="Base\ProductVsIconRowBase.cs" />
+    <Compile Include="Base\Product_ESCollectionBase.cs" />
+    <Compile Include="Base\Product_ESRowBase.cs" />
+    <Compile Include="Base\QRCodeCustomerRegisterCollectionBase.cs" />
+    <Compile Include="Base\QRCodeCustomerRegisterRowBase.cs" />
+    <Compile Include="Base\QRCodeLocationRegisterCollectionBase.cs" />
+    <Compile Include="Base\QRCodeLocationRegisterRowBase.cs" />
+    <Compile Include="Base\QRCodeLocationRegister_ESCollectionBase.cs" />
+    <Compile Include="Base\QRCodeLocationRegister_ESRowBase.cs" />
+    <Compile Include="Base\QRCodePackageCollectionBase.cs" />
+    <Compile Include="Base\QRCodePackageFragment_ESCollectionBase.cs" />
+    <Compile Include="Base\QRCodePackageFragment_ESRowBase.cs" />
+    <Compile Include="Base\QRCodePackageRowBase.cs" />
+    <Compile Include="Base\QRCodePackageRuleCollectionBase.cs" />
+    <Compile Include="Base\QRCodePackageRuleRowBase.cs" />
+    <Compile Include="Base\QRCodePackageRule_ESCollectionBase.cs" />
+    <Compile Include="Base\QRCodePackageRule_ESRowBase.cs" />
+    <Compile Include="Base\QRCodePackageVsProductPakageCollectionBase.cs" />
+    <Compile Include="Base\QRCodePackageVsProductPakageRowBase.cs" />
+    <Compile Include="Base\QRCodePackageVsProductPakage_ESCollectionBase.cs" />
+    <Compile Include="Base\QRCodePackageVsProductPakage_ESRowBase.cs" />
+    <Compile Include="Base\QRCodePackage_ESCollectionBase.cs" />
+    <Compile Include="Base\QRCodePackage_ESRowBase.cs" />
+    <Compile Include="Base\QRCodePublicCollectionBase.cs" />
+    <Compile Include="Base\QRCodePublicRowBase.cs" />
+    <Compile Include="Base\QRCodePublic_ESCollectionBase.cs" />
+    <Compile Include="Base\QRCodePublic_ESRowBase.cs" />
+    <Compile Include="Base\QRCodeSecretCollectionBase.cs" />
+    <Compile Include="Base\QRCodeSecretRowBase.cs" />
+    <Compile Include="Base\QRCodeSecret_ESCollectionBase.cs" />
+    <Compile Include="Base\QRCodeSecret_ESRowBase.cs" />
+    <Compile Include="Base\QRCodeStatusCollectionBase.cs" />
+    <Compile Include="Base\QRCodeStatusRowBase.cs" />
+    <Compile Include="Base\QRCodeStatus_ESCollectionBase.cs" />
+    <Compile Include="Base\QRCodeStatus_ESRowBase.cs" />
+    <Compile Include="Base\QRCodeTracking_ESCollectionBase.cs" />
+    <Compile Include="Base\QRCodeTracking_ESRowBase.cs" />
+    <Compile Include="Base\QRCodeWarehouseCollectionBase.cs" />
+    <Compile Include="Base\QRCodeWarehousePublicCollectionBase.cs" />
+    <Compile Include="Base\QRCodeWarehousePublicRowBase.cs" />
+    <Compile Include="Base\QRCodeWarehouseRegisterCollectionBase.cs" />
+    <Compile Include="Base\QRCodeWarehouseRegisterRowBase.cs" />
+    <Compile Include="Base\QRCodeWarehouseRegister_ESCollectionBase.cs" />
+    <Compile Include="Base\QRCodeWarehouseRegister_ESRowBase.cs" />
+    <Compile Include="Base\QRCodeWarehouseRowBase.cs" />
+    <Compile Include="Base\QRCodeWarehouseSecretCollectionBase.cs" />
+    <Compile Include="Base\QRCodeWarehouseSecretRowBase.cs" />
+    <Compile Include="Base\QRCodeWorkshopRegisterCollectionBase.cs" />
+    <Compile Include="Base\QRCodeWorkshopRegisterRowBase.cs" />
+    <Compile Include="Base\QRCodeWorkshopRegister_ESCollectionBase.cs" />
+    <Compile Include="Base\QRCodeWorkshopRegister_ESRowBase.cs" />
+    <Compile Include="Base\QualityCollectionBase.cs" />
+    <Compile Include="Base\QualityRowBase.cs" />
+    <Compile Include="Base\ReadNotificationCollectionBase.cs" />
+    <Compile Include="Base\ReadNotificationRowBase.cs" />
+    <Compile Include="Base\RegionCollectionBase.cs" />
+    <Compile Include="Base\RegionRowBase.cs" />
+    <Compile Include="Base\ReplaceCharCollectionBase.cs" />
+    <Compile Include="Base\ReplaceCharRowBase.cs" />
+    <Compile Include="Base\RowBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\SalesInformationCollectionBase.cs" />
+    <Compile Include="Base\SalesInformationRowBase.cs" />
+    <Compile Include="Base\SalesInformationVsProductCollectionBase.cs" />
+    <Compile Include="Base\SalesInformationVsProductPackageCollectionBase.cs" />
+    <Compile Include="Base\SalesInformationVsProductPackageRowBase.cs" />
+    <Compile Include="Base\SalesInformationVsProductRowBase.cs" />
+    <Compile Include="Base\SalesShiftCollectionBase.cs" />
+    <Compile Include="Base\SalesShiftRowBase.cs" />
+    <Compile Include="Base\SamplingPlanCollectionBase.cs" />
+    <Compile Include="Base\SamplingPlanRowBase.cs" />
+    <Compile Include="Base\SettingCollectionBase.cs" />
+    <Compile Include="Base\SettingRowBase.cs" />
+    <Compile Include="Base\SitemapCollectionBase.cs" />
+    <Compile Include="Base\SitemapRowBase.cs" />
+    <Compile Include="Base\SkinCollectionBase.cs" />
+    <Compile Include="Base\SkinRowBase.cs" />
+    <Compile Include="Base\SlideShowCollectionBase.cs" />
+    <Compile Include="Base\SlideShowRowBase.cs" />
+    <Compile Include="Base\SMSMessageCollectionBase.cs" />
+    <Compile Include="Base\SMSMessageDraftCollectionBase.cs" />
+    <Compile Include="Base\SMSMessageDraftRowBase.cs" />
+    <Compile Include="Base\SMSMessageRowBase.cs" />
+    <Compile Include="Base\StaffTypeCollectionBase.cs" />
+    <Compile Include="Base\StaffTypeRowBase.cs" />
+    <Compile Include="Base\StoreCollectionBase.cs" />
+    <Compile Include="Base\StoreRowBase.cs" />
+    <Compile Include="Base\SupplierCollectionBase.cs" />
+    <Compile Include="Base\SupplierRowBase.cs" />
+    <Compile Include="Base\SysLogCollectionBase.cs" />
+    <Compile Include="Base\SysLogRowBase.cs" />
+    <Compile Include="Base\SystemLogCollectionBase.cs" />
+    <Compile Include="Base\SystemLogRowBase.cs" />
+    <Compile Include="Base\TagCollectionBase.cs" />
+    <Compile Include="Base\TagMapCollectionBase.cs" />
+    <Compile Include="Base\TagMapRowBase.cs" />
+    <Compile Include="Base\TagRowBase.cs" />
+    <Compile Include="Base\TagTypeCollectionBase.cs" />
+    <Compile Include="Base\TagTypeRowBase.cs" />
+    <Compile Include="Base\TaskCollectionBase.cs" />
+    <Compile Include="Base\TaskRowBase.cs" />
+    <Compile Include="Base\TaskStatusCollectionBase.cs" />
+    <Compile Include="Base\TaskStatusRowBase.cs" />
+    <Compile Include="Base\TaskStepAnswerCollectionBase.cs" />
+    <Compile Include="Base\TaskStepAnswerRowBase.cs" />
+    <Compile Include="Base\TaskStepCollectionBase.cs" />
+    <Compile Include="Base\TaskStepQuestionCollectionBase.cs" />
+    <Compile Include="Base\TaskStepQuestionRowBase.cs" />
+    <Compile Include="Base\TaskStepRowBase.cs" />
+    <Compile Include="Base\TaskStepVsProductPackageCollectionBase.cs" />
+    <Compile Include="Base\TaskStepVsProductPackageRowBase.cs" />
+    <Compile Include="Base\TaskTypeCollectionBase.cs" />
+    <Compile Include="Base\TaskTypeRowBase.cs" />
+    <Compile Include="Base\TestingCertificatesCollectionBase.cs" />
+    <Compile Include="Base\TestingCertificatesRowBase.cs" />
+    <Compile Include="Base\TestParameterCollectionBase.cs" />
+    <Compile Include="Base\TestParameterRowBase.cs" />
+    <Compile Include="Base\TransporterCollectionBase.cs" />
+    <Compile Include="Base\TransporterRowBase.cs" />
+    <Compile Include="Base\UserNotifyCollectionBase.cs" />
+    <Compile Include="Base\UserNotifyRowBase.cs" />
+    <Compile Include="Base\UserVsPageFunctionCollectionBase.cs" />
+    <Compile Include="Base\UserVsPageFunctionRowBase.cs" />
+    <Compile Include="Base\UserVsProductBrandCollectionBase.cs" />
+    <Compile Include="Base\UserVsProductBrandRowBase.cs" />
+    <Compile Include="Base\WardCollectionBase.cs" />
+    <Compile Include="Base\WardRowBase.cs" />
+    <Compile Include="Base\WarehouseCollectionBase.cs" />
+    <Compile Include="Base\WarehouseExportCollectionBase.cs" />
+    <Compile Include="Base\WarehouseExportMaterialCollectionBase.cs" />
+    <Compile Include="Base\WarehouseExportMaterialRowBase.cs" />
+    <Compile Include="Base\WarehouseExportRowBase.cs" />
+    <Compile Include="Base\WarehouseImportCollectionBase.cs" />
+    <Compile Include="Base\WarehouseExportNoteCollectionBase.cs" />
+    <Compile Include="Base\WarehouseImportNoteCollectionBase.cs" />
+    <Compile Include="Base\WarehouseExportNoteDetailCollectionBase.cs" />
+    <Compile Include="Base\WarehouseImportNoteDetailCollectionBase.cs" />
+    <Compile Include="Base\WarehouseExportNoteDetailRowBase.cs" />
+    <Compile Include="Base\WarehouseImportNoteDetailRowBase.cs" />
+    <Compile Include="Base\WarehouseExportNoteRowBase.cs" />
+    <Compile Include="Base\WarehouseImportNoteRowBase.cs" />
+    <Compile Include="Base\WarehouseImportRowBase.cs" />
+    <Compile Include="Base\WarehouseRackCollectionBase.cs" />
+    <Compile Include="Base\WarehouseRackRowBase.cs" />
+    <Compile Include="Base\WarehouseRowBase.cs" />
+    <Compile Include="Base\WarehouseExportNoteDetailSlotCollectionBase.cs" />
+    <Compile Include="Base\WarehouseSlotActionCollectionBase.cs" />
+    <Compile Include="Base\WarehouseSlotActionRowBase.cs" />
+    <Compile Include="Base\WarehouseSlotInforCollectionBase.cs" />
+    <Compile Include="Base\WarehouseSlotCollectionBase.cs" />
+    <Compile Include="Base\WarehouseExportNoteDetailSlotRowBase.cs" />
+    <Compile Include="Base\WarehouseSlotInforRowBase.cs" />
+    <Compile Include="Base\WarehouseSlotRowBase.cs" />
+    <Compile Include="Base\WarehouseTempProCollectionBase.cs" />
+    <Compile Include="Base\WarehouseTempProRowBase.cs" />
+    <Compile Include="Base\Warehouse_ESCollectionBase.cs" />
+    <Compile Include="Base\Warehouse_ESRowBase.cs" />
+    <Compile Include="Base\WEB_PromotionCollectionBase.cs" />
+    <Compile Include="Base\WEB_PromotionRowBase.cs" />
+    <Compile Include="Base\WEB_PromotionVsProductCollectionBase.cs" />
+    <Compile Include="Base\WEB_PromotionVsProductRowBase.cs" />
+    <Compile Include="Base\WEB_SpaceCollectionBase.cs" />
+    <Compile Include="Base\WEB_SpaceRowBase.cs" />
+    <Compile Include="Base\WH_CheckSheetCollectionBase.cs" />
+    <Compile Include="Base\WH_CheckSheetRowBase.cs" />
+    <Compile Include="Base\WH_CheckSheetVsMaterialCollectionBase.cs" />
+    <Compile Include="Base\WH_CheckSheetVsMaterialRowBase.cs" />
+    <Compile Include="Base\WH_CheckSheet_DetailCollectionBase.cs" />
+    <Compile Include="Base\WH_CheckSheet_DetailRowBase.cs" />
+    <Compile Include="Base\WH_DeliveryNoteCollectionBase.cs" />
+    <Compile Include="Base\WH_DeliveryNoteRowBase.cs" />
+    <Compile Include="Base\WH_DeliveryNoteVsMaterialCollectionBase.cs" />
+    <Compile Include="Base\WH_DeliveryNoteVsMaterialRowBase.cs" />
+    <Compile Include="Base\WH_MaterialCategoryCollectionBase.cs" />
+    <Compile Include="Base\WH_MaterialCategoryRowBase.cs" />
+    <Compile Include="Base\WH_MaterialCollectionBase.cs" />
+    <Compile Include="Base\WH_MaterialRowBase.cs" />
+    <Compile Include="Base\WH_MaterialVsTestParameterCollectionBase.cs" />
+    <Compile Include="Base\WH_MaterialVsTestParameterRowBase.cs" />
+    <Compile Include="Base\WH_OrderCollectionBase.cs" />
+    <Compile Include="Base\WH_OrderRowBase.cs" />
+    <Compile Include="Base\WH_OrderVsProductCollectionBase.cs" />
+    <Compile Include="Base\WH_OrderVsProductRowBase.cs" />
+    <Compile Include="Base\WH_StandardCheckCollectionBase.cs" />
+    <Compile Include="Base\WH_StandardCheckRowBase.cs" />
+    <Compile Include="Base\WorkshopCollectionBase.cs" />
+    <Compile Include="Base\WorkshopRowBase.cs" />
+    <Compile Include="Base\ZoneCollectionBase.cs" />
+    <Compile Include="Base\ZoneRowBase.cs" />
+    <Compile Include="DbObj\AccountTypeCollection.cs" />
+    <Compile Include="DbObj\AccountTypeRow.cs" />
+    <Compile Include="DbObj\Account_CheckVNCollection.cs" />
+    <Compile Include="DbObj\Account_CheckVNRow.cs" />
+    <Compile Include="DbObj\ActiveLinkCollection.cs" />
+    <Compile Include="DbObj\ActiveLinkRow.cs" />
+    <Compile Include="DbObj\AgencyCollection.cs" />
+    <Compile Include="DbObj\AgencyRow.cs" />
+    <Compile Include="DbObj\AreaCollection.cs" />
+    <Compile Include="DbObj\AreaRow.cs" />
+    <Compile Include="DbObj\BaoHiemCollection.cs" />
+    <Compile Include="DbObj\BaoHiemRow.cs" />
+    <Compile Include="DbObj\BNN_BackLinkCollection.cs" />
+    <Compile Include="DbObj\BNN_BackLinkRow.cs" />
+    <Compile Include="DbObj\BNN_BannerCollection.cs" />
+    <Compile Include="DbObj\BNN_BannerRow.cs" />
+    <Compile Include="DbObj\BNN_BrandCollection.cs" />
+    <Compile Include="DbObj\BNN_BrandRow.cs" />
+    <Compile Include="DbObj\BNN_ConfigCollection.cs" />
+    <Compile Include="DbObj\BNN_ConfigRow.cs" />
+    <Compile Include="DbObj\BNN_ContactCollection.cs" />
+    <Compile Include="DbObj\BNN_ContactRow.cs" />
+    <Compile Include="DbObj\BNN_CountryCollection.cs" />
+    <Compile Include="DbObj\BNN_CountryRow.cs" />
+    <Compile Include="DbObj\BNN_CountryVsDocumentCollection.cs" />
+    <Compile Include="DbObj\BNN_CountryVsDocumentRow.cs" />
+    <Compile Include="DbObj\BNN_DocumentCategoryCollection.cs" />
+    <Compile Include="DbObj\BNN_DocumentCategoryRow.cs" />
+    <Compile Include="DbObj\BNN_DocumentCollection.cs" />
+    <Compile Include="DbObj\BNN_DocumentRow.cs" />
+    <Compile Include="DbObj\BNN_FeedbackCollection.cs" />
+    <Compile Include="DbObj\BNN_FeedbackRow.cs" />
+    <Compile Include="DbObj\BNN_MemberCollection.cs" />
+    <Compile Include="DbObj\BNN_MemberRow.cs" />
+    <Compile Include="DbObj\BNN_NewsCategoryCollection.cs" />
+    <Compile Include="DbObj\BNN_NewsCategoryRow.cs" />
+    <Compile Include="DbObj\BNN_NewsCollection.cs" />
+    <Compile Include="DbObj\BNN_NewsRow.cs" />
+    <Compile Include="DbObj\BNN_NewsVsDocumentCollection.cs" />
+    <Compile Include="DbObj\BNN_NewsVsDocumentRow.cs" />
+    <Compile Include="DbObj\BNN_OrderCollection.cs" />
+    <Compile Include="DbObj\BNN_OrderDetailCollection.cs" />
+    <Compile Include="DbObj\BNN_OrderDetailRow.cs" />
+    <Compile Include="DbObj\BNN_OrderRow.cs" />
+    <Compile Include="DbObj\BNN_ProductCollection.cs" />
+    <Compile Include="DbObj\BNN_ProductRow.cs" />
+    <Compile Include="DbObj\BNN_QACollection.cs" />
+    <Compile Include="DbObj\BNN_QARow.cs" />
+    <Compile Include="DbObj\BNN_QualityCollection.cs" />
+    <Compile Include="DbObj\BNN_QualityRow.cs" />
+    <Compile Include="DbObj\BNN_RegionCollection.cs" />
+    <Compile Include="DbObj\BNN_RegionRow.cs" />
+    <Compile Include="DbObj\BNN_RegionVsLocationCollection.cs" />
+    <Compile Include="DbObj\BNN_RegionVsLocationRow.cs" />
+    <Compile Include="DbObj\BNN_VideoCollection.cs" />
+    <Compile Include="DbObj\BNN_VideoRow.cs" />
+    <Compile Include="DbObj\BranchCollection.cs" />
+    <Compile Include="DbObj\BranchRow.cs" />
+    <Compile Include="DbObj\BusinessTypeCollection.cs" />
+    <Compile Include="DbObj\BusinessTypeRow.cs" />
+    <Compile Include="DbObj\ChainLinkCollection.cs" />
+    <Compile Include="DbObj\ChainLinkRow.cs" />
+    <Compile Include="DbObj\ConllectionPDMan.cs" />
+    <Compile Include="DbObj\ContactCollection.cs" />
+    <Compile Include="DbObj\ContactRow.cs" />
+    <Compile Include="DbObj\CountryCollection.cs" />
+    <Compile Include="DbObj\CountryRow.cs" />
+    <Compile Include="DbObj\CustomerCollection.cs" />
+    <Compile Include="DbObj\CustomerRow.cs" />
+    <Compile Include="DbObj\CustomerTypeCollection.cs" />
+    <Compile Include="DbObj\CustomerTypeRow.cs" />
+    <Compile Include="DbObj\DepartmentCollection.cs" />
+    <Compile Include="DbObj\DepartmentManCollection.cs" />
+    <Compile Include="DbObj\DepartmentManRow.cs" />
+    <Compile Include="DbObj\DepartmentRow.cs" />
+    <Compile Include="DbObj\DiscountCollection.cs" />
+    <Compile Include="DbObj\DiscountRow.cs" />
+    <Compile Include="DbObj\DistrictCollection.cs" />
+    <Compile Include="DbObj\DistrictRow.cs" />
+    <Compile Include="DbObj\EmailTemplateCollection.cs" />
+    <Compile Include="DbObj\EmailTemplateRow.cs" />
+    <Compile Include="DbObj\FarmCollection.cs" />
+    <Compile Include="DbObj\FarmGroupCollection.cs" />
+    <Compile Include="DbObj\FarmGroupInterCollection.cs" />
+    <Compile Include="DbObj\FarmGroupInterRow.cs" />
+    <Compile Include="DbObj\FarmGroupRow.cs" />
+    <Compile Include="DbObj\FarmRow.cs" />
+    <Compile Include="DbObj\FarmStatusCollection.cs" />
+    <Compile Include="DbObj\FarmStatusRow.cs" />
+    <Compile Include="DbObj\FCMClientCollection.cs" />
+    <Compile Include="DbObj\FCMClientRow.cs" />
+    <Compile Include="DbObj\FCMFormCollection.cs" />
+    <Compile Include="DbObj\FCMFormRow.cs" />
+    <Compile Include="DbObj\FCMMessageCollection.cs" />
+    <Compile Include="DbObj\FCMMessageForTokkenCollection.cs" />
+    <Compile Include="DbObj\FCMMessageForTokkenRow.cs" />
+    <Compile Include="DbObj\FCMMessageRow.cs" />
+    <Compile Include="DbObj\FunctionCollection.cs" />
+    <Compile Include="DbObj\FunctionGroupCollection.cs" />
+    <Compile Include="DbObj\FunctionGroupMenuCollection.cs" />
+    <Compile Include="DbObj\FunctionGroupMenuRow.cs" />
+    <Compile Include="DbObj\FunctionGroupRow.cs" />
+    <Compile Include="DbObj\FunctionRow.cs" />
+    <Compile Include="DbObj\LanguageCollection.cs" />
+    <Compile Include="DbObj\LanguageRow.cs" />
+    <Compile Include="DbObj\LocationCollection.cs" />
+    <Compile Include="DbObj\LocationRow.cs" />
+    <Compile Include="DbObj\LogHandlerCollection.cs" />
+    <Compile Include="DbObj\LogHandlerRow.cs" />
+    <Compile Include="DbObj\MaterialCategoryCollection.cs" />
+    <Compile Include="DbObj\MaterialCategoryRow.cs" />
+    <Compile Include="DbObj\MaterialCollection.cs" />
+    <Compile Include="DbObj\MaterialPriceCollection.cs" />
+    <Compile Include="DbObj\MaterialPriceRow.cs" />
+    <Compile Include="DbObj\MaterialRow.cs" />
+    <Compile Include="DbObj\MenuCollection.cs" />
+    <Compile Include="DbObj\MenuRow.cs" />
+    <Compile Include="DbObj\MinistryCollection.cs" />
+    <Compile Include="DbObj\MinistryRow.cs" />
+    <Compile Include="DbObj\NotificationCollection.cs" />
+    <Compile Include="DbObj\NotificationRow.cs" />
+    <Compile Include="DbObj\NotificationTypeCollection.cs" />
+    <Compile Include="DbObj\NotificationTypeRow.cs" />
+    <Compile Include="DbObj\PageFunctionCollection.cs" />
+    <Compile Include="DbObj\PageFunctionRow.cs" />
+    <Compile Include="DbObj\ProductBrandChangeCollection.cs" />
+    <Compile Include="DbObj\ProductBrandChangeRow.cs" />
+    <Compile Include="DbObj\ProductBrandCollection.cs" />
+    <Compile Include="DbObj\ProductBrandRow.cs" />
+    <Compile Include="DbObj\ProductBrandTypeCollection.cs" />
+    <Compile Include="DbObj\ProductBrandTypeRow.cs" />
+    <Compile Include="DbObj\ProductCategoryCollection.cs" />
+    <Compile Include="DbObj\ProductCategoryRow.cs" />
+    <Compile Include="DbObj\ProductCategory_ESCollection.cs" />
+    <Compile Include="DbObj\ProductCategory_ESRow.cs" />
+    <Compile Include="DbObj\ProductCategory_WebCollection.cs" />
+    <Compile Include="DbObj\ProductCategory_WebRow.cs" />
+    <Compile Include="DbObj\ProductChangeCollection.cs" />
+    <Compile Include="DbObj\ProductChangeRow.cs" />
+    <Compile Include="DbObj\ProductClassifyCollection.cs" />
+    <Compile Include="DbObj\ProductClassifyRow.cs" />
+    <Compile Include="DbObj\ProductCollection.cs" />
+    <Compile Include="DbObj\ProductColorCollection.cs" />
+    <Compile Include="DbObj\ProductColorRow.cs" />
+    <Compile Include="DbObj\ProductGalleryCollection.cs" />
+    <Compile Include="DbObj\ProductGalleryRow.cs" />
+    <Compile Include="DbObj\ProductGallery_ESCollection.cs" />
+    <Compile Include="DbObj\ProductGallery_ESRow.cs" />
+    <Compile Include="DbObj\ProductInfoCollection.cs" />
+    <Compile Include="DbObj\ProductInfoRow.cs" />
+    <Compile Include="DbObj\ProductInfo_ESCollection.cs" />
+    <Compile Include="DbObj\ProductInfo_ESRow.cs" />
+    <Compile Include="DbObj\ProductItemCollection.cs" />
+    <Compile Include="DbObj\ProductItemRow.cs" />
+    <Compile Include="DbObj\ProductPackageCollection.cs" />
+    <Compile Include="DbObj\ProductPackageHistoryCollection.cs" />
+    <Compile Include="DbObj\ProductPackageHistoryRow.cs" />
+    <Compile Include="DbObj\ProductPackageOrderCategoryCollection.cs" />
+    <Compile Include="DbObj\ProductPackageOrderCategoryRow.cs" />
+    <Compile Include="DbObj\ProductPackageOrderCollection.cs" />
+    <Compile Include="DbObj\ProductPackageOrderMaterialCollection.cs" />
+    <Compile Include="DbObj\ProductPackageOrderMaterialRow.cs" />
+    <Compile Include="DbObj\ProductPackageOrderMaterialRuleCollection.cs" />
+    <Compile Include="DbObj\ProductPackageOrderMaterialRuleRow.cs" />
+    <Compile Include="DbObj\ProductPackageOrderRow.cs" />
+    <Compile Include="DbObj\ProductPackageOrderStatusCollection.cs" />
+    <Compile Include="DbObj\ProductPackageOrderStatusRow.cs" />
+    <Compile Include="DbObj\ProductPackageRow.cs" />
+    <Compile Include="DbObj\ProductPackageStatusCollection.cs" />
+    <Compile Include="DbObj\ProductPackageStatusRow.cs" />
+    <Compile Include="DbObj\ProductPackageVsMaterialCollection.cs" />
+    <Compile Include="DbObj\ProductPackageVsMaterialRow.cs" />
+    <Compile Include="DbObj\ProductPackageVsTaskTypeCollection.cs" />
+    <Compile Include="DbObj\ProductPackageVsTaskTypeRow.cs" />
+    <Compile Include="DbObj\ProductPictureCollection.cs" />
+    <Compile Include="DbObj\ProductPictureRow.cs" />
+    <Compile Include="DbObj\ProductReviewCollection.cs" />
+    <Compile Include="DbObj\ProductReviewRow.cs" />
+    <Compile Include="DbObj\ProductRow.cs" />
+    <Compile Include="DbObj\ProductSetCollection.cs" />
+    <Compile Include="DbObj\ProductSetRow.cs" />
+    <Compile Include="DbObj\ProductStandardCollection.cs" />
+    <Compile Include="DbObj\ProductStandardRow.cs" />
+    <Compile Include="DbObj\ProductTypeCollection.cs" />
+    <Compile Include="DbObj\ProductTypeRow.cs" />
+    <Compile Include="DbObj\ProductVsIconCollection.cs" />
+    <Compile Include="DbObj\ProductVsIconRow.cs" />
+    <Compile Include="DbObj\Product_ESCollection.cs" />
+    <Compile Include="DbObj\Product_ESRow.cs" />
+    <Compile Include="DbObj\QRCodeCustomerRegisterCollection.cs" />
+    <Compile Include="DbObj\QRCodeCustomerRegisterRow.cs" />
+    <Compile Include="DbObj\QRCodeLocationRegisterCollection.cs" />
+    <Compile Include="DbObj\QRCodeLocationRegisterRow.cs" />
+    <Compile Include="DbObj\QRCodeLocationRegister_ESCollection.cs" />
+    <Compile Include="DbObj\QRCodeLocationRegister_ESRow.cs" />
+    <Compile Include="DbObj\QRCodePackageCollection.cs" />
+    <Compile Include="DbObj\QRCodePackageFragment_ESCollection.cs" />
+    <Compile Include="DbObj\QRCodePackageFragment_ESRow.cs" />
+    <Compile Include="DbObj\QRCodePackageRow.cs" />
+    <Compile Include="DbObj\QRCodePackageRuleCollection.cs" />
+    <Compile Include="DbObj\QRCodePackageRuleRow.cs" />
+    <Compile Include="DbObj\QRCodePackageRule_ESCollection.cs" />
+    <Compile Include="DbObj\QRCodePackageRule_ESRow.cs" />
+    <Compile Include="DbObj\QRCodePackageVsProductPakageCollection.cs" />
+    <Compile Include="DbObj\QRCodePackageVsProductPakageRow.cs" />
+    <Compile Include="DbObj\QRCodePackageVsProductPakage_ESCollection.cs" />
+    <Compile Include="DbObj\QRCodePackageVsProductPakage_ESRow.cs" />
+    <Compile Include="DbObj\QRCodePackage_ESCollection.cs" />
+    <Compile Include="DbObj\QRCodePackage_ESRow.cs" />
+    <Compile Include="DbObj\QRCodePublicCollection.cs" />
+    <Compile Include="DbObj\QRCodePublicRow.cs" />
+    <Compile Include="DbObj\QRCodePublic_ESCollection.cs" />
+    <Compile Include="DbObj\QRCodePublic_ESRow.cs" />
+    <Compile Include="DbObj\QRCodeSecretCollection.cs" />
+    <Compile Include="DbObj\QRCodeSecretRow.cs" />
+    <Compile Include="DbObj\QRCodeSecret_ESCollection.cs" />
+    <Compile Include="DbObj\QRCodeSecret_ESRow.cs" />
+    <Compile Include="DbObj\QRCodeStatusCollection.cs" />
+    <Compile Include="DbObj\QRCodeStatusRow.cs" />
+    <Compile Include="DbObj\QRCodeStatus_ESCollection.cs" />
+    <Compile Include="DbObj\QRCodeStatus_ESRow.cs" />
+    <Compile Include="DbObj\QRCodeTracking_ESCollection.cs" />
+    <Compile Include="DbObj\QRCodeTracking_ESRow.cs" />
+    <Compile Include="DbObj\QRCodeWarehouseCollection.cs" />
+    <Compile Include="DbObj\QRCodeWarehousePublicCollection.cs" />
+    <Compile Include="DbObj\QRCodeWarehousePublicRow.cs" />
+    <Compile Include="DbObj\QRCodeWarehouseRegisterCollection.cs" />
+    <Compile Include="DbObj\QRCodeWarehouseRegisterRow.cs" />
+    <Compile Include="DbObj\QRCodeWarehouseRegister_ESCollection.cs" />
+    <Compile Include="DbObj\QRCodeWarehouseRegister_ESRow.cs" />
+    <Compile Include="DbObj\QRCodeWarehouseRow.cs" />
+    <Compile Include="DbObj\QRCodeWarehouseSecretCollection.cs" />
+    <Compile Include="DbObj\QRCodeWarehouseSecretRow.cs" />
+    <Compile Include="DbObj\QRCodeWorkshopRegisterCollection.cs" />
+    <Compile Include="DbObj\QRCodeWorkshopRegisterRow.cs" />
+    <Compile Include="DbObj\QRCodeWorkshopRegister_ESCollection.cs" />
+    <Compile Include="DbObj\QRCodeWorkshopRegister_ESRow.cs" />
+    <Compile Include="DbObj\QualityCollection.cs" />
+    <Compile Include="DbObj\QualityRow.cs" />
+    <Compile Include="DbObj\ReadNotificationCollection.cs" />
+    <Compile Include="DbObj\ReadNotificationRow.cs" />
+    <Compile Include="DbObj\RegionCollection.cs" />
+    <Compile Include="DbObj\RegionRow.cs" />
+    <Compile Include="DbObj\ReplaceCharCollection.cs" />
+    <Compile Include="DbObj\ReplaceCharRow.cs" />
+    <Compile Include="DbObj\Row.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccessLocator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DbObj\Conllection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DbObj\Database.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DbObj\SalesInformationCollection.cs" />
+    <Compile Include="DbObj\SalesInformationRow.cs" />
+    <Compile Include="DbObj\SalesInformationVsProductCollection.cs" />
+    <Compile Include="DbObj\SalesInformationVsProductPackageCollection.cs" />
+    <Compile Include="DbObj\SalesInformationVsProductPackageRow.cs" />
+    <Compile Include="DbObj\SalesInformationVsProductRow.cs" />
+    <Compile Include="DbObj\SalesShiftCollection.cs" />
+    <Compile Include="DbObj\SalesShiftRow.cs" />
+    <Compile Include="DbObj\SamplingPlanCollection.cs" />
+    <Compile Include="DbObj\SamplingPlanRow.cs" />
+    <Compile Include="DbObj\SettingCollection.cs" />
+    <Compile Include="DbObj\SettingRow.cs" />
+    <Compile Include="DbObj\SitemapCollection.cs" />
+    <Compile Include="DbObj\SitemapRow.cs" />
+    <Compile Include="DbObj\SkinCollection.cs" />
+    <Compile Include="DbObj\SkinRow.cs" />
+    <Compile Include="DbObj\SlideShowCollection.cs" />
+    <Compile Include="DbObj\SlideShowRow.cs" />
+    <Compile Include="DbObj\SMSMessageCollection.cs" />
+    <Compile Include="DbObj\SMSMessageDraftCollection.cs" />
+    <Compile Include="DbObj\SMSMessageDraftRow.cs" />
+    <Compile Include="DbObj\SMSMessageRow.cs" />
+    <Compile Include="DbObj\StaffTypeCollection.cs" />
+    <Compile Include="DbObj\StaffTypeRow.cs" />
+    <Compile Include="DbObj\StoreCollection.cs" />
+    <Compile Include="DbObj\StoreRow.cs" />
+    <Compile Include="DbObj\SupplierCollection.cs" />
+    <Compile Include="DbObj\SupplierRow.cs" />
+    <Compile Include="DbObj\SysLogCollection.cs" />
+    <Compile Include="DbObj\SysLogRow.cs" />
+    <Compile Include="DbObj\SystemLogCollection.cs" />
+    <Compile Include="DbObj\SystemLogRow.cs" />
+    <Compile Include="DbObj\TagCollection.cs" />
+    <Compile Include="DbObj\TagMapCollection.cs" />
+    <Compile Include="DbObj\TagMapRow.cs" />
+    <Compile Include="DbObj\TagRow.cs" />
+    <Compile Include="DbObj\TagTypeCollection.cs" />
+    <Compile Include="DbObj\TagTypeRow.cs" />
+    <Compile Include="DbObj\TaskCollection.cs" />
+    <Compile Include="DbObj\TaskRow.cs" />
+    <Compile Include="DbObj\TaskStatusCollection.cs" />
+    <Compile Include="DbObj\TaskStatusRow.cs" />
+    <Compile Include="DbObj\TaskStepAnswerCollection.cs" />
+    <Compile Include="DbObj\TaskStepAnswerRow.cs" />
+    <Compile Include="DbObj\TaskStepCollection.cs" />
+    <Compile Include="DbObj\TaskStepQuestionCollection.cs" />
+    <Compile Include="DbObj\TaskStepQuestionRow.cs" />
+    <Compile Include="DbObj\TaskStepRow.cs" />
+    <Compile Include="DbObj\TaskStepVsProductPackageCollection.cs" />
+    <Compile Include="DbObj\TaskStepVsProductPackageRow.cs" />
+    <Compile Include="DbObj\TaskTypeCollection.cs" />
+    <Compile Include="DbObj\TaskTypeRow.cs" />
+    <Compile Include="DbObj\TestingCertificatesCollection.cs" />
+    <Compile Include="DbObj\TestingCertificatesRow.cs" />
+    <Compile Include="DbObj\TestParameterCollection.cs" />
+    <Compile Include="DbObj\TestParameterRow.cs" />
+    <Compile Include="DbObj\TransporterCollection.cs" />
+    <Compile Include="DbObj\TransporterRow.cs" />
+    <Compile Include="DbObj\UserNotifyCollection.cs" />
+    <Compile Include="DbObj\UserNotifyRow.cs" />
+    <Compile Include="DbObj\UserVsPageFunctionCollection.cs" />
+    <Compile Include="DbObj\UserVsPageFunctionRow.cs" />
+    <Compile Include="DbObj\UserVsProductBrandCollection.cs" />
+    <Compile Include="DbObj\UserVsProductBrandRow.cs" />
+    <Compile Include="DbObj\WardCollection.cs" />
+    <Compile Include="DbObj\WardRow.cs" />
+    <Compile Include="DbObj\WarehouseCollection.cs" />
+    <Compile Include="DbObj\WarehouseExportCollection.cs" />
+    <Compile Include="DbObj\WarehouseExportMaterialCollection.cs" />
+    <Compile Include="DbObj\WarehouseExportMaterialRow.cs" />
+    <Compile Include="DbObj\WarehouseExportRow.cs" />
+    <Compile Include="DbObj\WarehouseImportCollection.cs" />
+    <Compile Include="DbObj\WarehouseExportNoteCollection.cs" />
+    <Compile Include="DbObj\WarehouseImportNoteCollection.cs" />
+    <Compile Include="DbObj\WarehouseExportNoteDetailCollection.cs" />
+    <Compile Include="DbObj\WarehouseImportNoteDetailCollection.cs" />
+    <Compile Include="DbObj\WarehouseExportNoteDetailRow.cs" />
+    <Compile Include="DbObj\WarehouseImportNoteDetailRow.cs" />
+    <Compile Include="DbObj\WarehouseExportNoteRow.cs" />
+    <Compile Include="DbObj\WarehouseImportNoteRow.cs" />
+    <Compile Include="DbObj\WarehouseImportRow.cs" />
+    <Compile Include="DbObj\WarehouseRackCollection.cs" />
+    <Compile Include="DbObj\WarehouseRackRow.cs" />
+    <Compile Include="DbObj\WarehouseRow.cs" />
+    <Compile Include="DbObj\WarehouseExportNoteDetailSlotCollection.cs" />
+    <Compile Include="DbObj\WarehouseSlotActionCollection.cs" />
+    <Compile Include="DbObj\WarehouseSlotActionRow.cs" />
+    <Compile Include="DbObj\WarehouseSlotInforCollection.cs" />
+    <Compile Include="DbObj\WarehouseSlotCollection.cs" />
+    <Compile Include="DbObj\WarehouseExportNoteDetailSlotRow.cs" />
+    <Compile Include="DbObj\WarehouseSlotInforRow.cs" />
+    <Compile Include="DbObj\WarehouseSlotRow.cs" />
+    <Compile Include="DbObj\WarehouseTempProCollection.cs" />
+    <Compile Include="DbObj\WarehouseTempProRow.cs" />
+    <Compile Include="DbObj\Warehouse_ESCollection.cs" />
+    <Compile Include="DbObj\Warehouse_ESRow.cs" />
+    <Compile Include="DbObj\WEB_PromotionCollection.cs" />
+    <Compile Include="DbObj\WEB_PromotionRow.cs" />
+    <Compile Include="DbObj\WEB_PromotionVsProductCollection.cs" />
+    <Compile Include="DbObj\WEB_PromotionVsProductRow.cs" />
+    <Compile Include="DbObj\WEB_SpaceCollection.cs" />
+    <Compile Include="DbObj\WEB_SpaceRow.cs" />
+    <Compile Include="DbObj\WH_CheckSheetCollection.cs" />
+    <Compile Include="DbObj\WH_CheckSheetRow.cs" />
+    <Compile Include="DbObj\WH_CheckSheetVsMaterialCollection.cs" />
+    <Compile Include="DbObj\WH_CheckSheetVsMaterialRow.cs" />
+    <Compile Include="DbObj\WH_CheckSheet_DetailCollection.cs" />
+    <Compile Include="DbObj\WH_CheckSheet_DetailRow.cs" />
+    <Compile Include="DbObj\WH_DeliveryNoteCollection.cs" />
+    <Compile Include="DbObj\WH_DeliveryNoteRow.cs" />
+    <Compile Include="DbObj\WH_DeliveryNoteVsMaterialCollection.cs" />
+    <Compile Include="DbObj\WH_DeliveryNoteVsMaterialRow.cs" />
+    <Compile Include="DbObj\WH_MaterialCategoryCollection.cs" />
+    <Compile Include="DbObj\WH_MaterialCategoryRow.cs" />
+    <Compile Include="DbObj\WH_MaterialCollection.cs" />
+    <Compile Include="DbObj\WH_MaterialRow.cs" />
+    <Compile Include="DbObj\WH_MaterialVsTestParameterCollection.cs" />
+    <Compile Include="DbObj\WH_MaterialVsTestParameterRow.cs" />
+    <Compile Include="DbObj\WH_OrderCollection.cs" />
+    <Compile Include="DbObj\WH_OrderRow.cs" />
+    <Compile Include="DbObj\WH_OrderVsProductCollection.cs" />
+    <Compile Include="DbObj\WH_OrderVsProductRow.cs" />
+    <Compile Include="DbObj\WH_StandardCheckCollection.cs" />
+    <Compile Include="DbObj\WH_StandardCheckRow.cs" />
+    <Compile Include="DbObj\WorkshopCollection.cs" />
+    <Compile Include="DbObj\WorkshopRow.cs" />
+    <Compile Include="DbObj\ZoneCollection.cs" />
+    <Compile Include="DbObj\ZoneRow.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
